@@ -10,7 +10,7 @@ class Base(unittest.TestCase):
     def setUp(self):
         print 'start test'
         self.ff=webdriver.Firefox()
-        self.ff.refresh()
+        #self.ff.refresh()
         self.ff.maximize_window()
         self.ff.get(r'http://awsbj-openmanagement.xingyunzhi.cn/developer-user/login')
     #收！
