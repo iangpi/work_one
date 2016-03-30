@@ -19,6 +19,7 @@ ch.quit()
 '''
 
 #做一个关于启动不同浏览器的方法
+'''
 from selenium import webdriver
 import os,time
 def which_browser(br_name):
@@ -38,3 +39,4 @@ def which_browser(br_name):
 
 if __name__=="__main__":
     which_browser('12')
+'''

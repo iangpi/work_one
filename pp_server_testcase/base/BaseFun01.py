@@ -11,14 +11,6 @@ class Base(object):
         #self.ff.maximize_window()
         self.ff.get(the_url)
         self.ff.implicitly_wait(30)
-    def open_browers_with_chrome(self,the_url):
-        chromepath=os.path.abspath(r"C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
-        self.ch=webdriver.Chrome(chromepath)
-        self.ch.refresh()
-        self.ch.implicitly_wait(30)
-        self.ch.get(the_url)
-        self.ch.implicitly_wait(30)
-
     #封装定位方法
     def by_id(self,the_id):
         return self.ff.find_element_by_id(the_id)
