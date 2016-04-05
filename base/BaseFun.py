@@ -27,17 +27,6 @@ class Base(object):
         self.by_id('submit').click()
     def close_browser(self):
         self.ff.quit()
-    #应用中心页
-    def app_center_page(self):
-        a=self.by_classname('glyphicon glyphicon-globe').text
-        return a
-    #
-    # def date_center_page(self):
-    #
-    # def user_set_page(self):
-    #
-    # def doc_instructions_page(self):
-
 if __name__=='__main__':
     mytest=Base()
     mytest.open_browser_with_firefox(r"http://awsbj-openmanagement.xingyunzhi.cn/developer-user/login")
