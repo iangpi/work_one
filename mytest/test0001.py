@@ -1,4 +1,7 @@
 #coding:utf-8
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 '''
 复习下if __name__=='__main__':
 def b(x,y):
@@ -39,4 +42,26 @@ def which_browser(br_name):
 
 if __name__=="__main__":
     which_browser('12')
+'''
+
+'''
+#跨文件引用其他文件的变量
+import os,sys
+parentdir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))#跨文件引用
+sys.path.insert(0,parentdir)
+from base import Variables
+print Variables.the_url
+print Variables.the_test_url
+'''
+
+'''
+#打印元素的文字，用作断言
+from selenium import webdriver
+import time
+ff=webdriver.Firefox()
+ff.get(r"http://www.baidu.com")
+a=ff.find_element_by_xpath(".//*[@id='u1']/a[1]").text
+assert a=='糯米'
+time.sleep(3)
+ff.close()
 '''
