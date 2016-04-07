@@ -1,4 +1,5 @@
 #coding:utf-8
+from selenium import webdriver
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -63,5 +64,5 @@ ff.get(r"http://www.baidu.com")
 a=ff.find_element_by_xpath(".//*[@id='u1']/a[1]").text
 assert a=='糯米'
 time.sleep(3)
-ff.close()
+ff.quit ()
 '''
