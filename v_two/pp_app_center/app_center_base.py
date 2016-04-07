@@ -1,16 +1,18 @@
 #coding:utf-8
-from selenium import webdriver
-import os,sys,time
-from pp_server_testcase.base import BaseFun01
-parentdir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0,parentdir)
+import sys
+sys.path.append("./Page")
+sys.path.append("./Loginpage")
+sys.path.append("./Variables")
+import os
+import time
+from base import Variables
+
+#避免出现乱码
+reload(sys)
+sys.setdefaultencoding('utf-8')
+#跨文件引用
+
+
 class App_Center_Base(object):
-    def app_center_url(self):
-        return 'http://awsbj-openmanagement.xingyunzhi.cn/app-bak/get-app-list'
-
-
-if __name__=="__mian__":
-    www=BaseFun01.Base()#类的实例化
-    www.open_browser(r'http://awsbj-openmanagement.xingyunzhi.cn/developer-user/login')#打开网址
-    www.login('wxg','wxg')#用户名和密码传参数
-
+    def app_center_page(self):
+        return Variables.app_center_url

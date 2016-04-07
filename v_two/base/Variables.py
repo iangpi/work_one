@@ -1,12 +1,19 @@
 #coding:utf-8
-import os
+from selenium import webdriver
 #项目地址
-the_url=r"http://awsbj-openmanagement.xingyunzhi.cn/developer-user/login"
+the_real_url=r"http://awsbj-openmanagement.xingyunzhi.cn/developer-user/login"
+#应用中心地址
+app_center_url=r"http://awsbj-openmanagement.xingyunzhi.cn/app-bak/get-app-list"
 #测试地址
-the_test_url=r"http://www.baidu.com"
-#火狐浏览器缩写
-firefox='ff'
-#谷歌浏览器绝对地址
-chromepath=os.path.abspath(r"C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
-#谷歌浏览器缩写
-chrome='ch'
+the_baidu_url=r"http://www.baidu.com"
+#浏览器驱动
+selenium_driver=webdriver.Firefox()
+# chromepath=os.path.abspath(r"C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
+# selenium_driver=webdriver.Chrome(chromepath)
+#登录时需要的用户名和密码和提交按钮的元素
+el_username='username'
+el_password='password'
+el_submit='submit'
+#登录时要用的用户名和密码
+username='wxg'
+password='wxg'
