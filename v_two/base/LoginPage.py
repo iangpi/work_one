@@ -1,5 +1,6 @@
 #coding:utf-8
 from Page import Base
+from selenium import webdriver
 import sys
 import os
 import time
@@ -14,9 +15,9 @@ sys.path.insert(0,parentdir)
 
 class Login(object):
     #成功登录方法
-    def loginsuccess(self):
+    def loginpage(self):
         #实例化类
-        dr=Base()
+        dr=Base(webdriver.Firefox())
         url=Variables.the_real_url
         #引入常用变量
         el_username=Variables.el_username
@@ -25,7 +26,7 @@ class Login(object):
         u=Variables.username
         p=Variables.password
 
-        dr.open(url)
+        dr.open_browser(url)
         dr.by_id(el_username).clear()
         dr.by_id(el_username).send_keys(u)
         dr.by_id(el_password).clear()
@@ -38,9 +39,9 @@ class Login(object):
             print 'assert 001 fail'
         else:
             print 'assert 001 pass'
-if __name__=="__main__":
-    mytest001=Login()
-    mytest001.loginsuccess()
-    time.sleep(2)
-    Base().close()
+        # time.sleep(3)
+        # dr.quit_browser()
 
+if __name__=="__main__":
+    test001=Login()
+    test001.loginpage()

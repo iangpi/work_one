@@ -2,18 +2,19 @@
 import Variables
 import sys
 import time
+from selenium import webdriver
 reload(sys)
 sys.setdefaultencoding('utf-8')#避免出现乱码
 
 class Base(object):
     #初始化浏览器驱动
-    def __init__(self):
-        self.driver=Variables.selenium_driver
+    def __init__(self,driver):
+        self.driver=driver
     #打开浏览器
-    def open(self,url):
+    def open_browser(self,url):
         self.driver.get(url)
     #关闭浏览器
-    def close(self):
+    def quit_browser(self):
         self.driver.quit()
     #id定位
     def by_id(self,the_id):
@@ -29,10 +30,11 @@ class Base(object):
         return el
 if __name__=='__main__':
     #实例化类
-    test001=Base()
+    test001=Base(webdriver.Firefox())
     #引用常用变量的文件
-    test_url=Variables.the_baidu_url
-    test001.open(test_url)
+    url=Variables.the_baidu_url
+
+    test001.open_browser(url)
     test001.by_id('kw').send_keys('123')
     time.sleep(2)
 
@@ -44,4 +46,4 @@ if __name__=='__main__':
     test001.by_classname("s_ipt").send_keys('789')
     time.sleep(2)
 
-    test001.close()
+    test001.quit_browser()

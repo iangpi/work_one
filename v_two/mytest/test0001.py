@@ -1,8 +1,4 @@
 #coding:utf-8
-from selenium import webdriver
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 '''
 复习下if __name__=='__main__':
 def b(x,y):
