@@ -14,9 +14,9 @@ parentdir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0,parentdir)
 
 class Login(object):
-    def __init__(self):
+    def __init__(self,driver):
         #实例化类
-        self.dr=Base(webdriver.Firefox())
+        self.dr=Base(driver)
         #引入常用变量
         self.url=Variables.the_real_url
         self.el_username=Variables.el_username
@@ -41,7 +41,7 @@ class Login(object):
     def closepage(self):
         self.dr.quit_browser()
 if __name__=="__main__":
-    test001=Login()
+    test001=Login(webdriver.Firefox())
     test001.loginpage()
     time.sleep(3)
     test001.closepage()

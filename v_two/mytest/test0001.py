@@ -17,7 +17,6 @@ ch.get(r"http://www.baidu.com")
 time.sleep(2)
 ch.quit()
 '''
-
 #做一个关于启动不同浏览器的方法
 '''
 from selenium import webdriver
@@ -61,4 +60,11 @@ a=ff.find_element_by_xpath(".//*[@id='u1']/a[1]").text
 assert a=='糯米'
 time.sleep(3)
 ff.quit ()
+'''
+
+'''
+from selenium import webdriver
+driver=webdriver.Firefox()
+driver.switch_to_alert().accept()#好像这种是不推荐的写法,所以上面有个横线
+driver.switch_to.alert().accept()
 '''
