@@ -5,7 +5,6 @@ import time
 from selenium import webdriver
 reload(sys)
 sys.setdefaultencoding('utf-8')#避免出现乱码
-
 class Base(object):
     #初始化浏览器驱动
     def __init__(self,driver):

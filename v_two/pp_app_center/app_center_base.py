@@ -6,16 +6,12 @@ import time
 
 parentdir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0,parentdir)
-from base import Variables
+from base.LoginPage import Login
+class BasePage():
+    def app_center(self):
+        loginsuccess=Login()
+        return loginsuccess.loginpage()
 
-print Variables.the_real_url
-
-# #避免出现乱码
-# reload(sys)
-# sys.setdefaultencoding('utf-8')
-# #跨文件引用
-#
-#
-# class App_Center_Base(object):
-#     def app_center_page(self):
-#         return Variables.app_center_url
+if __name__=="__main__":
+    test001=BasePage()
+    test001.app_center()
