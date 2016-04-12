@@ -68,3 +68,19 @@ driver=webdriver.Firefox()
 driver.switch_to_alert().accept()#好像这种是不推荐的写法,所以上面有个横线
 driver.switch_to.alert().accept()
 '''
+
+'''
+#跨文件引用的另一种办法（非平级引用）
+import sys
+sys.path.append(r"D:\mygit\work_one\v_two\base")
+import Variables
+print Variables.the_real_url
+'''
+
+'''
+#如果是平级引用，可以这样写
+import sys
+sys.path.append("./base")
+import test0002
+print test0002.a
+'''

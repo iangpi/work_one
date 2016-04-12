@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4b0b05-d64b-448d-8a71-2e36f5899cf3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v_two/pp_app_center/page_of_app_cente.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/v_two/mytest/test0002.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_two/base/LoginPage.py" afterPath="$PROJECT_DIR$/v_two/base/LoginPage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_two/base/Variables.py" afterPath="$PROJECT_DIR$/v_two/base/Variables.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py" afterPath="$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_two/mytest/test0001.py" afterPath="$PROJECT_DIR$/v_two/mytest/test0001.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -23,10 +26,11 @@
     <SUITE FILE_PATH="coverage/work_one$PPMPFind_el.coverage" NAME="PPMPFind_el Coverage Results" MODIFIED="1459923474923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/work_one$ppkpChoseBrowser.coverage" NAME="ppkpChoseBrowser Coverage Results" MODIFIED="1459330611244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/base" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun.coverage" NAME="BaseFun Coverage Results" MODIFIED="1460009111800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
+    <SUITE FILE_PATH="coverage/work_one$page_of_app_cente.coverage" NAME="page_of_app_cente Coverage Results" MODIFIED="1460455047579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
     <SUITE FILE_PATH="coverage/work_one$PPMPChoseBrowser.coverage" NAME="PPMPChoseBrowser Coverage Results" MODIFIED="1459913255946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_login01.coverage" NAME="Unittests in test_login01 Coverage Results" MODIFIED="1459235512789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
-    <SUITE FILE_PATH="coverage/work_one$test0001.coverage" NAME="test0001 Coverage Results" MODIFIED="1460112140548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/mytest" />
-    <SUITE FILE_PATH="coverage/work_one$app_center_base.coverage" NAME="app_center_base Coverage Results" MODIFIED="1460370857184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
+    <SUITE FILE_PATH="coverage/work_one$test0001.coverage" NAME="test0001 Coverage Results" MODIFIED="1460442830816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/mytest" />
+    <SUITE FILE_PATH="coverage/work_one$app_center_base.coverage" NAME="app_center_base Coverage Results" MODIFIED="1460448494136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_test_login01_test_login_suess.coverage" NAME="Unittest test_login01.test_login_suess Coverage Results" MODIFIED="1459236458417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun01.coverage" NAME="BaseFun01 Coverage Results" MODIFIED="1459244485048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_login01.coverage" NAME="Unittests in login01 Coverage Results" MODIFIED="1459234941502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
@@ -46,18 +50,7 @@
     <favorites_list name="work_one" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="test0001.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0930233">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,11 +72,13 @@
         <option value="$PROJECT_DIR$/base/PPMPFind_el.py" />
         <option value="$PROJECT_DIR$/v_two/base/BaseFun.py" />
         <option value="$PROJECT_DIR$/v_one/mytest/test0001.py" />
-        <option value="$PROJECT_DIR$/v_two/base/Variables.py" />
         <option value="$PROJECT_DIR$/v_two/base/Page.py" />
-        <option value="$PROJECT_DIR$/v_two/base/LoginPage.py" />
+        <option value="$PROJECT_DIR$/v_two/mytest/test0002.py" />
         <option value="$PROJECT_DIR$/v_two/mytest/test0001.py" />
+        <option value="$PROJECT_DIR$/v_two/base/LoginPage.py" />
         <option value="$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py" />
+        <option value="$PROJECT_DIR$/v_two/pp_app_center/page_of_app_cente.py" />
+        <option value="$PROJECT_DIR$/v_two/base/Variables.py" />
       </list>
     </option>
   </component>
@@ -177,6 +172,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v_two" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -205,7 +218,7 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.app_center_base">
+  <component name="RunManager" selected="Python.page_of_app_cente">
     <configuration default="false" name="test0001" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,24 +233,6 @@
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/mytest/test0001.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/base" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="work_one" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/base/Variables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -292,6 +287,24 @@
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="page_of_app_cente" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/pp_app_center" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="work_one" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/pp_app_center/page_of_app_cente.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -486,18 +499,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test0001" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Variables" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Page" />
-      <item index="3" class="java.lang.String" itemvalue="Python.LoginPage" />
-      <item index="4" class="java.lang.String" itemvalue="Python.app_center_base" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Page" />
+      <item index="2" class="java.lang.String" itemvalue="Python.LoginPage" />
+      <item index="3" class="java.lang.String" itemvalue="Python.app_center_base" />
+      <item index="4" class="java.lang.String" itemvalue="Python.page_of_app_cente" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.app_center_base" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LoginPage" />
+        <item index="0" class="java.lang.String" itemvalue="Python.page_of_app_cente" />
+        <item index="1" class="java.lang.String" itemvalue="Python.app_center_base" />
         <item index="2" class="java.lang.String" itemvalue="Python.test0001" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Page" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Variables" />
+        <item index="3" class="java.lang.String" itemvalue="Python.LoginPage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Page" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +531,7 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -565,6 +578,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Python27/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33256352">
@@ -593,21 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/base/Variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41860464">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#14#23#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/v_one/base/PPMPLogin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="77" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,42 +639,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.2093023">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/pp_app_center/test_app_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v_two/base/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44186047">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#14#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/base/Page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88372093">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#14#30#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20930232">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.5813953">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0930233">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.3488372">
+          <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/pp_app_center/page_of_app_cente.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/base/Variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55813956">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v_two/base/Page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41860464">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>

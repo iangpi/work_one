@@ -35,7 +35,7 @@ class Login(object):
             test_el=self.dr.by_xpath(".//*[@id='content']/div/div/div/div[2]/div[2]/div/a").text
             assert test_el==u'搜索'
         except:
-            print 'assert 001 fail'
+            print 'assert 0001 fail'
         else:
             pass
     def closepage(self):
