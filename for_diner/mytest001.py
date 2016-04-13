@@ -15,12 +15,11 @@ print a
 filename=r"your_info.txt"
 mylist=[]
 lines=open(filename,'r').readlines()
-mylist=[line.strip().split(',') for line in lines]
-print mylist
+mylist=[line.split('\n') for line in lines]
 a,b=mylist[0],mylist[1]
 email,password=','.join(a),','.join(b)
-print email
-print password
+print email,type(email)
+print password,type(password)
 '''
 
 '''
@@ -28,23 +27,20 @@ filename=r"your_info.txt"
 mylist=[]
 lines=open(filename,'r').readlines()
 for line in lines:
-    line=line.strip('\n')
+    line.strip('\n')
     mylist.append(line)
 email=(mylist[0])
 password=(mylist[1])
+print email,password
 '''
-
 
 '''list转换为str
 l=['a','b']
 a=','.join(l)
 print(a)
 '''
-import time
-from selenium import webdriver
-ff=webdriver.Firefox()
-time.sleep(2)
-ff.refresh()
-time.sleep(2)
-ff.refresh()
-ff.get(r"http://www.baidu.com")
+'''切片功能，切除前后特定字符，默认为空，可以字符串形式入参，
+str = "0000000this is string example....wow!!!0000000";
+print str.strip( '0' );
+print str
+'''
