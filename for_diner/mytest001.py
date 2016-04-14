@@ -44,3 +44,24 @@ str = "0000000this is string example....wow!!!0000000";
 print str.strip( '0' );
 print str
 '''
+
+'''
+import sys
+sys.path.append('./mybase')
+import mybase
+print mybase.js
+'''
+
+'''
+a='iangpi'
+print len(a)
+print ('%d,%s')%(len(a),a)
+'''
+
+while 1:
+    a=raw_input("which shop you want to eat? input the number??".decode('utf-8').encode('gbk'))
+    if a.isdigit():
+        if a==1:
+            print 1
+        else:
+            print 'bie chi le'
