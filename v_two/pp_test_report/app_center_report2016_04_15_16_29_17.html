@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>这是标题</title>
+    <title>数据中心</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,10 +188,10 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>这是标题</h1>
-<p class='attribute'><strong>Start Time:</strong> 2016-03-29 15:46:25</p>
-<p class='attribute'><strong>Duration:</strong> 0:02:21.592000</p>
-<p class='attribute'><strong>Status:</strong> Pass 1</p>
+<h1>数据中心</h1>
+<p class='attribute'><strong>Start Time:</strong> 2016-04-15 16:29:17</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00</p>
+<p class='attribute'><strong>Status:</strong> Error 1</p>
 
 <p class='description'>这是测试报告详细内容</p>
 </div>
@@ -221,32 +221,31 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
-    <td>test_login01: 测试说明1</td>
-    <td>1</td>
+<tr class='errorClass'>
+    <td>AppCenterTest</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
+    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login_suess: 测试说明2</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_on_page_edit_password</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: test start
-test end
+ft1.1: TypeError: setUp() takes exactly 2 arguments (1 given)
 
 
         </pre>
@@ -259,9 +258,9 @@ test end
 <tr id='total_row'>
     <td>Total</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

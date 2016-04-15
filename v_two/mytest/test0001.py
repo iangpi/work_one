@@ -84,3 +84,5 @@ sys.path.append("./base")
 import test0002
 print test0002.a
 '''
+
+d={'a':1,'b':2}
