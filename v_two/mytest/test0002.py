@@ -1,19 +1,19 @@
 #coding:utf-8
 import sys
 sys.path.append('./mytest')
-import test0001
-print test0001.d['a']
+# import time
+# test_time=time.strftime("%Y_%m_%d_%H_%M_%S")
+# print test_time
+# print type(test_time)
 
-    # testunit=unittest.TestSuite()
-    # testunit.addTest(BasePage("test_login_add_apk_bak"))
-    # test_time=time.strftime("%Y_%m_%d_%H_%M_%S")
-    # save_path=os.path.abspath(r"D:\mygit\work_one\pp_test_report\testreport")#公司的存放地址
-    # filename=save_path+test_time+'.html'
-    # print filename
-    # htmlreprot=open(filename,'wb')
-    # runner=HTMLTestRunner(stream=htmlreprot,
-    #                       title='这是标题',
-    #                       description='这是测试报告详细内容'
-    #                       )
-    # runner.run(testunit)
-    # htmlreprot.close()
+# import requests
+# r=requests.get("http://www.baidu.com")
+# print r.status_code
+
+#引用一个文件里不通的类的方法
+# from test0001 import a
+# from test0001 import b
+# a=a()
+# print a.aa(1,2)
+# b=b()
+# print b.aaa(3)

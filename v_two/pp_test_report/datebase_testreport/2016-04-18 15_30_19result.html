@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>数据中心</title>
+    <title>数据中心测试报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,12 +188,12 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>数据中心</h1>
-<p class='attribute'><strong>Start Time:</strong> 2016-04-15 16:29:17</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00</p>
-<p class='attribute'><strong>Status:</strong> Error 1</p>
+<h1>数据中心测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2016-04-18 15:30:19</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:33.244000</p>
+<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
 
-<p class='description'>这是测试报告详细内容</p>
+<p class='description'>设置类子项目测试报告</p>
 </div>
 
 
@@ -222,30 +222,80 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='errorClass'>
-    <td>AppCenterTest</td>
+    <td>test_center.AppCenterTest</td>
+    <td>2</td>
     <td>1</td>
     <td>0</td>
-    <td>0</td>
     <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_on_page_edit_password</div></td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_001_on_page_edit_password</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
 
-    <div id='div_ft1.1' class="popup_window">
+    <div id='div_pt1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.1: TypeError: setUp() takes exactly 2 arguments (1 given)
+pt1.1: test start
+test start
+test end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_002_nothing_input</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: test start
+test start
+Traceback (most recent call last):
+  File "D:\mygit\work_one\v_two\app_center\test_center.py", line 44, in test_002_nothing_input
+    self.the_dr.by_classname(Datebase_dict['ä¿®æ¹å¯ç æé®_el']).click()
+  File "D:\mygit\work_one\v_two\base\MyBase.py", line 27, in by_classname
+    el=self.driver.find_element_by_class_name(the_classname)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 410, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+InvalidSelectorException: Message: The given selector btn btn-primary btn-lg btn-block is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: Compound class names not permitted
+Stacktrace:
+    at FirefoxDriver.annotateInvalidSelectorError_ (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
+    at FirefoxDriver.prototype.findElementInternal_ (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
+    at FirefoxDriver.prototype.findElement (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+    at DelayedCommand.prototype.executeInternal_/h (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+    at DelayedCommand.prototype.executeInternal_ (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+    at DelayedCommand.prototype.execute/&lt; (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
 
 
         </pre>
@@ -257,8 +307,8 @@ ft1.1: TypeError: setUp() takes exactly 2 arguments (1 given)
 
 <tr id='total_row'>
     <td>Total</td>
+    <td>2</td>
     <td>1</td>
-    <td>0</td>
     <td>0</td>
     <td>1</td>
     <td>&nbsp;</td>

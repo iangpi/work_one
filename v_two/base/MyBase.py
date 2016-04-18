@@ -1,5 +1,4 @@
 #coding:utf-8
-
 import sys
 import time
 from selenium import webdriver
@@ -24,8 +23,8 @@ class Base(object):
     def by_xpath(self,the_xpath):
         el=self.driver.find_element_by_xpath(the_xpath)
         return el
-    def by_classname(self,the_classname):
-        el=self.driver.find_element_by_class_name(the_classname)
+    def by_class_name(self,the_class_name):
+        el=self.driver.find_element_by_class_name(the_class_name)
         return el
 if __name__=='__main__':
     #实例化类
@@ -41,8 +40,8 @@ if __name__=='__main__':
     test001.by_xpath(".//*[@id='kw']").send_keys('456')
     time.sleep(2)
 
-    test001.by_classname("s_ipt").clear()
-    test001.by_classname("s_ipt").send_keys('789')
+    test001.by_class_name("s_ipt").clear()
+    test001.by_class_name("s_ipt").send_keys('789')
     time.sleep(2)
 
     test001.quit_browser()

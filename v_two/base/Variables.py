@@ -22,5 +22,6 @@ url_dict={'登录url':r"http://awsbj-openmanagement.xingyunzhi.cn/developer-user
 Datebase_dict={'wxg_el':'html/body/div[1]/div/div/button',
                '修改密码_el':'html/body/div[1]/div/div/ul/li[1]/a',
                '个人信息_el':".//*[@id='modifypasswordpost']/div[1]/h1",
-               '搜索按钮_el':".//*[@id='content']/div/div/div/div[2]/div[2]/div/a"
+               '搜索按钮_el':".//*[@id='content']/div/div/div/div[2]/div[2]/div/a",
+               '修改密码按钮_el':".//*[@id='modifypasswordpost']/div[2]/div[5]/div/button"
                }

@@ -85,4 +85,9 @@ import test0002
 print test0002.a
 '''
 
-d={'a':1,'b':2}
+class a(object):
+    def aa(self,x,y):
+        return x+y
+class b(a):
+    def aaa(self,z):
+        return z
