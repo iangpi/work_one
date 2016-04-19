@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>数据中心测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2016-04-19 13:26:42</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:29.460000</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2016-04-19 16:37:31</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:34.996000</p>
+<p class='attribute'><strong>Status:</strong> Pass 6</p>
 
 <p class='description'>设置类子项目测试报告</p>
 </div>
@@ -221,17 +221,17 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>test_center.AppCenterTest</td>
-    <td>2</td>
-    <td>1</td>
+<tr class='passClass'>
+    <td>test_center.AppCenterTest: 数据中心测试类</td>
+    <td>6</td>
+    <td>6</td>
     <td>0</td>
-    <td>1</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',6)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_001_on_page_edit_password</div></td>
+    <td class='none'><div class='testcase'>test_edit_pw_001: 测试是否到了编辑密码页面</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -256,26 +256,128 @@ test end
     </td>
 </tr>
 
-<tr id='ft1.2' class='none'>
-    <td class='errorCase'><div class='testcase'>test_002_nothing_input</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_edit_pw_002: 测试不输入任何东西，修改密码</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
+        pass</a>
 
-    <div id='div_ft1.2' class="popup_window">
+    <div id='div_pt1.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.2: test start
-Traceback (most recent call last):
-  File "D:\mygit\work_one\v_two\app_center\test_center.py", line 44, in test_002_nothing_input
-    self.edit_password.page_edit_password()
-AttributeError: 'AppCenterTest' object has no attribute 'edit_password'
+pt1.2: test start
+test end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_edit_pw_003: 不输入新密码确认</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.3')" >
+        pass</a>
+
+    <div id='div_pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.3: test start
+assert test_003 fail
+test end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_edit_pw_004: 不输入新密码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
+
+    <div id='div_pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.4: test start
+test end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.5' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_edit_pw_005: 不输入确认密码</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.5')" >
+        pass</a>
+
+    <div id='div_pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.5: test start
+test end
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.6' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_edit_pw_006: 新密码和新密码确认不一致</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.6')" >
+        pass</a>
+
+    <div id='div_pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.6: test start
+test end
 
 
         </pre>
@@ -287,10 +389,10 @@ AttributeError: 'AppCenterTest' object has no attribute 'edit_password'
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>2</td>
-    <td>1</td>
+    <td>6</td>
+    <td>6</td>
     <td>0</td>
-    <td>1</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

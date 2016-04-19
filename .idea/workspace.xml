@@ -2,66 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4b0b05-d64b-448d-8a71-2e36f5899cf3" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\.idea\work_one.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\base\BaseFun.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\base\PPMPChoseBrowser.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\base\PPMPFind_el.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\base\PPMPLogin.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\base\Variables.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\base\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\mytest\test0001.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_app_center\app_center_base.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_app_center\test_app_center.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_server_testcase\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_server_testcase\test_app_center\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_server_testcase\test_app_center\test_state.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_server_testcase\testlogin\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_server_testcase\testlogin\login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_test_report\testreport2016_03_29_15_38_41.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_test_report\testreport2016_03_29_15_42_19.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_test_report\testreport2016_03_29_15_46_25.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\pp_test_report\testreport2016_03_29_16_40_21.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\126login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\package\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\package\location.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\po_login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\test_case\126login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\test_case\allpage\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\test_case\allpage\base.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_one\test_page_object\test_case\allpage\login_page.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\app_center\RunTestCase.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\app_center\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\app_center\page_app_center.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\app_center\test_center.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\base\MyBase.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\base\MyBase_v1.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\base\Variables.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\base\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\mytest\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\mytest\test0001.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\mytest\test0002.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_server_testcase\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_server_testcase\test_app_center\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_server_testcase\test_app_center\test_state.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_server_testcase\testlogin\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_server_testcase\testlogin\login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_test_report\datebase_testreport\2016-04-18 15_09_31result.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_test_report\datebase_testreport\2016-04-18 15_30_19result.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\pp_test_report\datebase_testreport\2016-04-18 15_34_42result.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\126login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\package\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\package\location.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\po_login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\test_case\126login.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\test_case\allpage\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\test_case\allpage\base.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mygit\work_one\v_two\test_page_object\test_case\allpage\login_page.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\app_center\page_app_center.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\pp_server_testcase\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\pp_server_testcase\test_app_center\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\pp_server_testcase\test_app_center\test_state.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\pp_server_testcase\testlogin\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\pp_server_testcase\testlogin\login.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\pp_test_report\datebase_testreport\2016-04-19 13_26_42result.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\126login.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\package\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\package\location.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\po_login.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\test_case\126login.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\test_case\allpage\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\test_case\allpage\base.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\mygit\work_one\v_3\test_page_object\test_case\allpage\login_page.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_3/app_center/RunTestCase.py" afterPath="$PROJECT_DIR$/v_3/app_center/RunTestCase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_3/base/Variables.py" afterPath="$PROJECT_DIR$/v_3/base/Variables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_3/mytest/test0002.py" afterPath="$PROJECT_DIR$/v_3/mytest/test0002.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v_3/app_center/test_center.py" afterPath="$PROJECT_DIR$/v_3/app_center/test_center.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work_one.iws" />
@@ -79,16 +38,20 @@
     <SUITE FILE_PATH="coverage/work_one$base.coverage" NAME="base Coverage Results" MODIFIED="1460525743753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/for_diner" />
     <SUITE FILE_PATH="coverage/work_one$PPMPFind_el.coverage" NAME="PPMPFind_el Coverage Results" MODIFIED="1459923474923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun.coverage" NAME="BaseFun Coverage Results" MODIFIED="1460009111800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
-    <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest.coverage" NAME="Unittests in AppCenterTest Coverage Results" MODIFIED="1460976273635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_003.coverage" NAME="Unittest AppCenterTest.test_edit_pw_003 Coverage Results" MODIFIED="1461053576359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest.coverage" NAME="Unittests in AppCenterTest Coverage Results" MODIFIED="1461044791106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$MyBase_v1.coverage" NAME="MyBase_v1 Coverage Results" MODIFIED="1460971116830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_test_login01_test_login_suess.coverage" NAME="Unittest test_login01.test_login_suess Coverage Results" MODIFIED="1459236458417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_007.coverage" NAME="Unittest AppCenterTest.test_edit_pw_007 Coverage Results" MODIFIED="1461056383386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$MyBase.coverage" NAME="MyBase Coverage Results" MODIFIED="1460947792203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__2_.coverage" NAME="Unittests in AppCenterTest (2) Coverage Results" MODIFIED="1460977020190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_login01.coverage" NAME="Unittests in login01 Coverage Results" MODIFIED="1459234941502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_login01__1_.coverage" NAME="Unittests in test_login01 (1) Coverage Results" MODIFIED="1459236519497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_002_nothing_input.coverage" NAME="Unittest AppCenterTest.test_002_nothing_input Coverage Results" MODIFIED="1460964783093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$RunTestCase__1_.coverage" NAME="RunTestCase (1) Coverage Results" MODIFIED="1461045363411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_005.coverage" NAME="Unittest AppCenterTest.test_edit_pw_005 Coverage Results" MODIFIED="1461054545788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Page.coverage" NAME="Page Coverage Results" MODIFIED="1460713910450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
-    <SUITE FILE_PATH="coverage/work_one$test_center.coverage" NAME="test_center Coverage Results" MODIFIED="1461044345175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$test_center.coverage" NAME="test_center Coverage Results" MODIFIED="1461054935169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$PPMPLogin.coverage" NAME="PPMPLogin Coverage Results" MODIFIED="1459910905844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/work_one$ppkpChoseBrowser.coverage" NAME="ppkpChoseBrowser Coverage Results" MODIFIED="1459330611244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/base" />
     <SUITE FILE_PATH="coverage/work_one$page_of_app_cente.coverage" NAME="page_of_app_cente Coverage Results" MODIFIED="1460455047579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
@@ -99,17 +62,19 @@
     <SUITE FILE_PATH="coverage/work_one$app_center_base.coverage" NAME="app_center_base Coverage Results" MODIFIED="1460448494136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
     <SUITE FILE_PATH="coverage/work_one$test0001.coverage" NAME="test0001 Coverage Results" MODIFIED="1460687809177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/mytest" />
     <SUITE FILE_PATH="coverage/work_one$test0002.coverage" NAME="test0002 Coverage Results" MODIFIED="1460952327351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/mytest" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_004.coverage" NAME="Unittest AppCenterTest.test_edit_pw_004 Coverage Results" MODIFIED="1461054198609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_on_page_edit_password.coverage" NAME="Unittest AppCenterTest.test_on_page_edit_password Coverage Results" MODIFIED="1460948743848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__1_.coverage" NAME="Unittests in AppCenterTest (1) Coverage Results" MODIFIED="1460976387553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun01.coverage" NAME="BaseFun01 Coverage Results" MODIFIED="1459244485048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/base" />
-    <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_center.coverage" NAME="Unittests in test_center Coverage Results" MODIFIED="1460976240697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$page_app_center.coverage" NAME="page_app_center Coverage Results" MODIFIED="1461043790823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_center.coverage" NAME="Unittests in test_center Coverage Results" MODIFIED="1461044801503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$login.coverage" NAME="login Coverage Results" MODIFIED="1460625806394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/for_diner" />
     <SUITE FILE_PATH="coverage/work_one$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1460947946713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_006.coverage" NAME="Unittest AppCenterTest.test_edit_pw_006 Coverage Results" MODIFIED="1461054896587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Variables.coverage" NAME="Variables Coverage Results" MODIFIED="1460963360478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$login01.coverage" NAME="login01 Coverage Results" MODIFIED="1459240820721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$test0001__1_.coverage" NAME="test0001 (1) Coverage Results" MODIFIED="1460100584075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_one/mytest" />
-    <SUITE FILE_PATH="coverage/work_one$RunTestCase.coverage" NAME="RunTestCase Coverage Results" MODIFIED="1461043601866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$RunTestCase.coverage" NAME="RunTestCase Coverage Results" MODIFIED="1461055051494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -119,7 +84,40 @@
     <favorites_list name="work_one" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Variables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v_3/base/Variables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_center.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v_3/app_center/test_center.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2657177">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunTestCase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v_3/app_center/RunTestCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,6 +164,10 @@
         <option value="$PROJECT_DIR$/v_two/mytest/test0001.py" />
         <option value="$PROJECT_DIR$/v_two/app_center/page_app_center.py" />
         <option value="$PROJECT_DIR$/v_two/app_center/test_center.py" />
+        <option value="$PROJECT_DIR$/v_3/mytest/test0002.py" />
+        <option value="$PROJECT_DIR$/v_3/base/Variables.py" />
+        <option value="$PROJECT_DIR$/v_3/app_center/RunTestCase.py" />
+        <option value="$PROJECT_DIR$/v_3/app_center/test_center.py" />
       </list>
     </option>
   </component>
@@ -223,6 +225,92 @@
               <option name="myItemId" value="work_one" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pp_test_report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v_3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -242,39 +330,21 @@
       <recent name="D:\mygit\work_one\v_two\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_center">
-    <configuration default="false" name="page_app_center" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/app_center" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="work_one" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/app_center/page_app_center.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest AppCenterTest.test_001_on_page_edit_password" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittest AppCenterTest.test_edit_pw_007">
+    <configuration default="false" name="Unittest AppCenterTest.test_edit_pw_005" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/app_center" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_3/app_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/app_center/test_center.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_3/app_center/test_center.py" />
       <option name="CLASS_NAME" value="AppCenterTest" />
-      <option name="METHOD_NAME" value="test_001_on_page_edit_password" />
+      <option name="METHOD_NAME" value="test_edit_pw_005" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -284,45 +354,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in AppCenterTest (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest AppCenterTest.test_edit_pw_006" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/app_center" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_3/app_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/app_center/test_center.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_3/app_center/test_center.py" />
       <option name="CLASS_NAME" value="AppCenterTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="METHOD_NAME" value="test_edit_pw_006" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RunTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/app_center" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="work_one" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/app_center/RunTestCase.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="test_center" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -332,15 +384,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_two/app_center" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_3/app_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_two/app_center/test_center.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_3/app_center/test_center.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RunTestCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_3/app_center" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="work_one" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_3/app_center/RunTestCase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest AppCenterTest.test_edit_pw_007" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/v_3/app_center" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="work_one" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v_3/app_center/test_center.py" />
+      <option name="CLASS_NAME" value="AppCenterTest" />
+      <option name="METHOD_NAME" value="test_edit_pw_007" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -532,19 +625,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.page_app_center" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_001_on_page_edit_password" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in AppCenterTest (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_edit_pw_005" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_edit_pw_006" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_center" />
       <item index="3" class="java.lang.String" itemvalue="Python.RunTestCase" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_center" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_edit_pw_007" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_center" />
-        <item index="1" class="java.lang.String" itemvalue="Python.page_app_center" />
-        <item index="2" class="java.lang.String" itemvalue="Python.RunTestCase" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_001_on_page_edit_password" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in AppCenterTest (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_edit_pw_007" />
+        <item index="1" class="java.lang.String" itemvalue="Python.RunTestCase" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_center" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_edit_pw_006" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_edit_pw_005" />
       </list>
     </recent_temporary>
   </component>
@@ -563,16 +656,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1468" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16369048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34895834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -604,70 +697,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/v_two/base/MyBase_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/app_center/page_app_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33256352">
           <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/base/PPMPChoseBrowser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/mytest/test0001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -678,121 +711,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/base/PPMPFind_el.py">
+    <entry file="file://$PROJECT_DIR$/v_3/mytest/test0002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/base/PPMPLogin.py">
+    <entry file="file://$PROJECT_DIR$/v_3/base/Variables.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="77" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/base/BaseFun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1908046">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/base/Variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/pp_app_center/app_center_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/pp_app_center/test_app_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/pp_server_testcase/test_app_center/test_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_one/pp_server_testcase/testlogin/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90114945">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/base/MyBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/mytest/test0001.py">
+    <entry file="file://$PROJECT_DIR$/v_3/app_center/RunTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
-          <folding />
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/app_center/RunTestCase.py">
+    <entry file="file://$PROJECT_DIR$/v_3/app_center/test_center.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17948718">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/base/Variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43589744">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/base/MyBase_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4871795">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/app_center/page_app_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3846154">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/v_two/app_center/test_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18223444">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.2657177">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding />
         </state>
       </provider>

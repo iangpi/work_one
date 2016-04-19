@@ -12,9 +12,6 @@ from base.Variables import Datebase_dict
 from base.Variables import url_dict
 from base.MyBase_v1 import Base
 from base.MyBase_v1 import Login
-#同文件夹下引包
-sys.path.append('./app_center')
-from page_app_center import All_Page_App_Center
 
 class AppCenterTest(unittest.TestCase):
     """数据中心测试类"""
@@ -26,7 +23,10 @@ class AppCenterTest(unittest.TestCase):
         login=Login(driver)
         login.loginpage()
         print ("test start")
-    def test_001_page_edit_password(self):
+    def tearDown(self):
+        self.the_dr.quit_browser()
+        print ("test end")
+    def test_edit_pw_001(self):
         """测试是否到了编辑密码页面"""
         self.the_dr.open_browser(url_dict['编辑密码url'])
         self.the_dr.by_xpath(Datebase_dict['wxg_el']).click()
@@ -39,25 +39,99 @@ class AppCenterTest(unittest.TestCase):
         try:
             assert get_text==hope_text
         except:
-            print ("assert test_001_on_page_edit_password fail")
+            print ("assert test_001 fail")
         else:
             pass
-    def test_002_change_password_nothing_input(self):
+    def test_edit_pw_002(self):
         """测试不输入任何东西，修改密码"""
         self.the_dr.open_browser(url_dict['编辑密码url'])
         self.the_dr.by_xpath(Datebase_dict['修改密码按钮_el']).click()
-        time.sleep(3)
+        time.sleep(2)
         get_text=self.the_dr.by_id("oldPassword").text
-        hope_text=u'请填写原密码'
+        hope_text='请填写原密码'
         try:
             assert get_text==hope_text
         except:
-            print ("assert test_002_nothing_input fail")
+            print ("assert test_002 fail")
         else:
             pass
-    def tearDown(self):
-        self.the_dr.quit_browser()
-        print ("test end")
+    def test_edit_pw_003(self):
+        """不输入新密码确认"""
+        self.the_dr.open_browser(url_dict['编辑密码url'])
+        self.the_dr.by_xpath(Datebase_dict['输入新密码_el']).send_keys("wxg")
+        self.the_dr.by_xpath(Datebase_dict['新密码确认_el']).send_keys("wxg")
+        self.the_dr.by_xpath(Datebase_dict['修改密码按钮_el']).click()
+        time.sleep(2)
+        get_text=self.the_dr.by_id("newPassword").text
+        hope_text='请填写原密码'
+        try:
+            assert get_text==hope_text
+        except:
+            print ("assert test_003 fail")
+        else:
+            pass
+    def test_edit_pw_004(self):
+        """不输入新密码"""
+        self.the_dr.open_browser(url_dict['编辑密码url'])
+        self.the_dr.by_xpath(Datebase_dict['输入旧密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['新密码确认_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['修改密码按钮_el']).click()
+        time.sleep(2)
+        get_text=self.the_dr.by_id("newPassword").text
+        hope_text='请填写新密码'
+        try:
+            assert get_text==hope_text
+        except:
+            print ("test 004 fail")
+        else:
+            pass
+    def test_edit_pw_005(self):
+        """不输入确认密码"""
+        self.the_dr.open_browser(url_dict['编辑密码url'])
+        self.the_dr.by_xpath(Datebase_dict['输入旧密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['输入新密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['修改密码按钮_el']).click()
+        time.sleep(2)
+        get_text=self.the_dr.by_id("confireNewPassword").text
+        hope_text='请填写确认新密码'
+        try:
+            assert get_text==hope_text
+        except:
+            print ("test 005 fail")
+        else:
+            pass
+    def test_edit_pw_006(self):
+        """新密码和新密码确认不一致"""
+        self.the_dr.open_browser(url_dict['编辑密码url'])
+        self.the_dr.by_xpath(Datebase_dict['输入旧密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['输入新密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['新密码确认_el']).send_keys('123')
+        self.the_dr.by_xpath(Datebase_dict['修改密码按钮_el']).click()
+        time.sleep(2)
+        get_text=self.the_dr.by_id("confireNewPassword").text
+        hope_text='两次输入的密码不一致'
+        try:
+            assert get_text==hope_text
+        except:
+            print ("test 006 fail")
+        else:
+            pass
+    def test_edit_pw_007(self):
+        """修改密码成功"""
+        self.the_dr.open_browser(url_dict['编辑密码url'])
+        self.the_dr.by_xpath(Datebase_dict['输入旧密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['输入新密码_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['新密码确认_el']).send_keys('wxg')
+        self.the_dr.by_xpath(Datebase_dict['修改密码按钮_el']).click()
+        time.sleep(2)
+        get_text=self.the_dr.by_xpath(".//*[@id='modifypasswordpost']/div[1]/span").text
+        hope_text='密码修改成功'
+        try:
+            assert get_text==hope_text
+        except:
+            print ("test 007 fail")
+        else:
+            pass
 if __name__=="__main__":
     unittest.main()
     # testunit=unittest.TestSuite()
@@ -68,7 +142,7 @@ if __name__=="__main__":
     # # save_path=os.path.abspath(r"E:\mypython\pengpeng\pp_test_report\testreport")
     # # 公司的存放地址
     # #save_path=os.path.abspath(r'D:\mygit\work_one\v_two\pp_test_report\datebase_testreport')
-    # filename='D:\\mygit\\work_one\\v_two\\pp_test_report\\datebase_testreport\\'+test_time+'result.html'
+    # filename='D:\\mygit\\work_one\\v_3\\pp_test_report\\datebase_testreport\\'+test_time+'result.html'
     # fp=file(filename,'wb')
     # runner=HTMLTestRunner(stream=fp,
     #                       title='数据中心测试报告',

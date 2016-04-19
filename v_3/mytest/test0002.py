@@ -1,5 +1,6 @@
 #coding:utf-8
 import sys
+from selenium import webdriver
 sys.path.append('./mytest')
 # import time
 # test_time=time.strftime("%Y_%m_%d_%H_%M_%S")

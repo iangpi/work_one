@@ -23,5 +23,8 @@ Datebase_dict={'wxg_el':'html/body/div[1]/div/div/button',
                '修改密码_el':'html/body/div[1]/div/div/ul/li[1]/a',
                '个人信息_el':".//*[@id='modifypasswordpost']/div[1]/h1",
                '搜索按钮_el':".//*[@id='content']/div/div/div/div[2]/div[2]/div/a",
-               '修改密码按钮_el':".//*[@id='modifypasswordpost']/div[2]/div[5]/div/button"
+               '修改密码按钮_el':".//*[@id='modifypasswordpost']/div[2]/div[5]/div/button",
+               '输入旧密码_el':".//*[@id='modifypasswordpost']/div[2]/div[2]/div[2]/input",
+               '输入新密码_el':".//*[@id='modifypasswordpost']/div[2]/div[3]/div[2]/input",
+               '新密码确认_el':".//*[@id='modifypasswordpost']/div[2]/div[4]/div[2]/input"
                }
