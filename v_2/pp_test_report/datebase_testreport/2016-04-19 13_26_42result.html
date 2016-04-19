@@ -189,8 +189,8 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>数据中心测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2016-04-18 15:30:19</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:33.244000</p>
+<p class='attribute'><strong>Start Time:</strong> 2016-04-19 13:26:42</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:29.460000</p>
 <p class='attribute'><strong>Status:</strong> Pass 1 Error 1</p>
 
 <p class='description'>设置类子项目测试报告</p>
@@ -246,7 +246,6 @@ function showOutput(id, name) {
         <pre>
         
 pt1.1: test start
-test start
 test end
 
 
@@ -273,29 +272,10 @@ test end
         <pre>
         
 ft1.2: test start
-test start
 Traceback (most recent call last):
   File "D:\mygit\work_one\v_two\app_center\test_center.py", line 44, in test_002_nothing_input
-    self.the_dr.by_classname(Datebase_dict['ä¿®æ¹å¯ç æé®_el']).click()
-  File "D:\mygit\work_one\v_two\base\MyBase.py", line 27, in by_classname
-    el=self.driver.find_element_by_class_name(the_classname)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 410, in find_element_by_class_name
-    return self.find_element(by=By.CLASS_NAME, value=name)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
-    {'using': by, 'value': value})['value']
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
-    self.error_handler.check_response(response)
-  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
-    raise exception_class(message, screen, stacktrace)
-InvalidSelectorException: Message: The given selector btn btn-primary btn-lg btn-block is either invalid or does not result in a WebElement. The following error occurred:
-InvalidSelectorError: Compound class names not permitted
-Stacktrace:
-    at FirefoxDriver.annotateInvalidSelectorError_ (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/driver-component.js:10744)
-    at FirefoxDriver.prototype.findElementInternal_ (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/driver-component.js:10775)
-    at FirefoxDriver.prototype.findElement (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
-    at DelayedCommand.prototype.executeInternal_/h (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
-    at DelayedCommand.prototype.executeInternal_ (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
-    at DelayedCommand.prototype.execute/&lt; (file:///c:/users/ppldc/appdata/local/temp/tmp3gxipd/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+    self.edit_password.page_edit_password()
+AttributeError: 'AppCenterTest' object has no attribute 'edit_password'
 
 
         </pre>
