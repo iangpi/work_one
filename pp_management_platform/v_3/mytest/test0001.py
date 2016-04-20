@@ -85,9 +85,35 @@ import test0002
 print test0002.a
 '''
 
-class a(object):
-    def aa(self,x,y):
-        return x+y
-class b(a):
-    def aaa(self,z):
-        return z
+'''退出登录后，返回登陆页面，获取登录页面tile
+from selenium import webdriver
+import time
+ff=webdriver.Firefox()
+ff.get(r"http://awsbj-openmanagement.xingyunzhi.cn/developer-user/index")
+ff.find_element_by_id('username').send_keys('wxg')
+ff.find_element_by_id('password').send_keys('wxg')
+ff.find_element_by_id('submit').click()
+ff.find_element_by_xpath('html/body/div[1]/div/div/button').click()
+ff.find_element_by_xpath('html/body/div[1]/div/div/ul/li[2]/a').click()
+time.sleep(2)
+print ff.title
+'''
+
+测试打印title的type
+from selenium import webdriver
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+class mytitle():
+    def the_title(self):
+        ff=webdriver.Firefox()
+        ff.get(r"http://www.baidu.com")
+        baidu_title=ff.title
+        print type(baidu_title)
+        ff.quit()
+        return baidu_title
+if __name__=="__main__":
+    test01=mytitle()
+    test01.the_title()
+
+

@@ -5,7 +5,7 @@ from HTMLTestRunner import HTMLTestRunner
 def creat_suite():
     testunit=unittest.TestSuite()
     #定义测试文件查找的目录
-    test_dir=r"D:\mygit\work_one\v_3\app_center"
+    test_dir=r"D:\mygit\work_one\pp_management_platform\v_3\app_center"
     #定义discover方法的参数
     discover=unittest.defaultTestLoader.discover(test_dir,
                                                  pattern='test*.py',
@@ -20,7 +20,7 @@ test_time=time.strftime("%Y-%m-%d %H_%M_%S")
 # 家里的存放地址
 # save_path=os.path.abspath(r"E:\mypython\pengpeng\pp_test_report\\")
 # 公司的存放地址
-save_path=r'D:\mygit\work_one\v_3\pp_test_report\datebase_testreport\\'
+save_path=r'D:\mygit\work_one\pp_management_platform\v_3\pp_test_report\datebase_testreport\\'
 filename=save_path+test_time+'result.html'
 fp=file(filename,'wb')
 runner=HTMLTestRunner(stream=fp,

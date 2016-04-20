@@ -1,0 +1,36 @@
+#coding:utf-8
+#登录时需要的用户名和密码和提交按钮的元素
+login_el={'用户名el':'username',
+          '密码el':'password',
+          '登录按钮el':'submit'
+          }
+#登录时要用的用户名和密码
+u_p={'用户名':'wxg',
+     '密码':'wxg'
+     }
+
+'''下面的部分地址，需要完成登陆后才能被使用'''
+'''下面的部分地址，需要完成登陆后才能被使用'''
+'''下面的部分地址，需要完成登陆后才能被使用'''
+base_url={'登录url':r"http://awsbj-openmanagement.xingyunzhi.cn/developer-user/login",
+          '百度测试用url':r"http://www.baidu.com",
+          '数据中心url':r"http://awsbj-openmanagement.xingyunzhi.cn/app-bak/get-app-list",
+          '编辑密码url':r"http://awsbj-openmanagement.xingyunzhi.cn/account/modify-password?uid=2",
+          '用户列表url':r"http://awsbj-openmanagement.xingyunzhi.cn/account/get-user-list",
+          '公司列表url':r"http://awsbj-openmanagement.xingyunzhi.cn/account/get-developer-list"
+          }
+#基础页面的元素
+base_page={'wxg_el':'html/body/div[1]/div/div/button',
+           '退出_el':'html/body/div[1]/div/div/ul/li[2]/a',
+           '修改密码_el':'html/body/div[1]/div/div/ul/li[1]/a'
+           }
+#设置页面的元素
+set_page={'个人信息_el':".//*[@id='modifypasswordpost']/div[1]/h1",
+          '修改密码按钮_el':".//*[@id='modifypasswordpost']/div[2]/div[5]/div/button",
+          '输入旧密码_el':".//*[@id='modifypasswordpost']/div[2]/div[2]/div[2]/input",
+          '输入新密码_el':".//*[@id='modifypasswordpost']/div[2]/div[3]/div[2]/input",
+          '新密码确认_el':".//*[@id='modifypasswordpost']/div[2]/div[4]/div[2]/input"
+          }
+#应用中心的元素
+apply_center_page={'搜索按钮_el':".//*[@id='content']/div/div/div/div[2]/div[2]/div/a"
+              }
