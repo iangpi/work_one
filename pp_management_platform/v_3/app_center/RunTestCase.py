@@ -2,6 +2,7 @@
 import unittest
 import time
 from HTMLTestRunner import HTMLTestRunner
+
 def creat_suite():
     testunit=unittest.TestSuite()
     #定义测试文件查找的目录
@@ -16,11 +17,11 @@ def creat_suite():
         testunit.addTest(test_case)
     return testunit
 
-test_time=time.strftime("%Y-%m-%d %H_%M_%S")
 # 家里的存放地址
 # save_path=os.path.abspath(r"E:\mypython\pengpeng\pp_test_report\\")
 # 公司的存放地址
 save_path=r'D:\mygit\work_one\pp_management_platform\v_3\pp_test_report\datebase_testreport\\'
+test_time=time.strftime("%Y-%m-%d %H_%M_%S")
 filename=save_path+test_time+'result.html'
 fp=file(filename,'wb')
 runner=HTMLTestRunner(stream=fp,
