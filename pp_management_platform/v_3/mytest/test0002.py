@@ -1,33 +1,15 @@
 #coding:utf-8
-'''
-import sys
+#appium
 from selenium import webdriver
-sys.path.append('./mytest')
-import test0001
-print test0001.a
-'''
-# import time
-# test_time=time.strftime("%Y_%m_%d_%H_%M_%S")
-# print test_time
-# print type(test_time)
+import time
+ff=webdriver.Firefox()
+ff.get("http://www.baidu.com")
+ff.maximize_window()
+get_text=ff.find_element_by_xpath(".//*[@id='u1']/a[1]").text
+hope_text=u'糯米'
+print get_text
+print hope_text
 
-# import requests
-# r=requests.get("http://www.baidu.com")
-# print r.status_code
-
-#引用一个文件里不通的类的方法
-# from test0001 import a
-# from test0001 import b
-# a=a()
-# print a.aa(1,2)
-# b=b()
-# print b.aaa(3)
-'''对list和dict潜逃格式的读取
-a=[
- {"name": "ONE","cities": {"city": ["1", "2"]}},
- ]
-print a[0]
-print a[0]['cities']
-print a[0]['cities']['city']
-print a[0]['cities']['city'][0]
-'''
+assert get_text==hope_text
+time.sleep(3)
+ff.quit()

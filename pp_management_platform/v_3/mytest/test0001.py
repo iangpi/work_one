@@ -18,7 +18,7 @@ time.sleep(2)
 ch.quit()
 '''
 #做一个关于启动不同浏览器的方法
-'''
+"""
 from selenium import webdriver
 import os,time
 def which_browser(br_name):
@@ -38,7 +38,7 @@ def which_browser(br_name):
 
 if __name__=="__main__":
     which_browser('12')
-'''
+"""
 
 '''
 #跨文件引用其他文件的变量
@@ -99,7 +99,8 @@ time.sleep(2)
 print ff.title
 '''
 
-测试打印title的type
+'''
+#测试打印title的type
 from selenium import webdriver
 import sys
 reload(sys)
@@ -115,5 +116,19 @@ class mytitle():
 if __name__=="__main__":
     test01=mytitle()
     test01.the_title()
+'''
 
 
+'''对list和dict格式的读取
+a=[
+ {"name": "ONE","cities": {"city": ["1", "2"]}},
+ ]
+print a[0]
+print a[0]['cities']
+print a[0]['cities']['city']
+print a[0]['cities']['city'][0]
+'''
+
+
+a='asdasda"asda\'sd\'asd"'
+print a
