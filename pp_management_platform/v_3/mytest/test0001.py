@@ -128,7 +128,4 @@ print a[0]['cities']
 print a[0]['cities']['city']
 print a[0]['cities']['city'][0]
 '''
-
-
-a='asdasda"asda\'sd\'asd"'
-print a
+a=[1,2,3]

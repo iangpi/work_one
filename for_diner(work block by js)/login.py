@@ -10,9 +10,14 @@ lines=open("your_info.txt",'r').readlines()
 for line in lines:
     line.strip('\n')
     mylist.append(line)
-email=mylist[0]
-password=mylist[1]
+print mylist
+print mylist[0]
+print mylist[1]
 
+
+
+
+'''
 #开始启动浏览器
 ff=webdriver.Firefox()
 ff.get(mybase.diner_url)
@@ -37,3 +42,4 @@ for shop in shops:
     print n,shops_name
 time.sleep(3)
 ff.quit()
+'''
