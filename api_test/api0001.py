@@ -1,6 +1,7 @@
 #coding:utf-8
 import time
 import requests
+'''
 r=requests.get('http://www.baidu.com')
 print r.status_code
 
@@ -25,7 +26,7 @@ print r.json()['data']['country']
 
 
 requests.get('http://github.com', timeout=10.001)
-
+'''
 
 '''
 print 'start time is:',time.strftime("%Y-%m-%d %H_%M_%S")
@@ -38,3 +39,6 @@ else:
     pass
 '''
 
+list = ['a','b','c']
+str = ('').join(list)
+print str[0],type(str[0])
