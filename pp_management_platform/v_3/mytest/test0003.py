@@ -53,9 +53,8 @@ time.sleep(3)
 ff.find_element_by_xpath(".//*[@id='2']/div[1]/div[1]/a/img").click()
 '''
 
-'''复习，xpath利用层级和属性and组合定位的方法
+#复习，xpath利用层级和属性and组合定位的方法
 from selenium import webdriver
 ff=webdriver.Firefox()
 ff.get(r"http://www.baidu.com")
 ff.find_element_by_xpath("//span/input[@id='kw' and @class='s_ipt']").send_keys('123')
-'''

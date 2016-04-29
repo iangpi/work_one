@@ -4,10 +4,6 @@ import os
 import time
 import sys
 sys.path.append('./base')
-# import DD_Data
-# el=DD_Data.elements()
-
-
 PATH=lambda p:os.path.abspath(os.path.join(os.path.dirname(__file__),p))
 desired_caps={}
 desired_caps['device'] = 'android'
