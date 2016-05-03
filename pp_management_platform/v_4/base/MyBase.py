@@ -31,15 +31,15 @@ class Base(object):
         return el
 class Login(Base):
     def loginpage(self):
-        mybase=Base(self.driver)
-        mybase.open_browser(base_url['登录url'])
-        mybase.by_id(login_el['用户名el']).clear()
-        mybase.by_id(login_el['用户名el']).send_keys(u_p['用户名'])
-        mybase.by_id(login_el['密码el']).clear()
-        mybase.by_id(login_el['密码el']).send_keys(u_p['密码'])
-        mybase.by_id(login_el['登录按钮el']).click()
+        mylogin=Base(self.driver)
+        mylogin.open_browser(base_url['登录url'])
+        mylogin.by_id(login_el['用户名el']).clear()
+        mylogin.by_id(login_el['用户名el']).send_keys(u_p['用户名'])
+        mylogin.by_id(login_el['密码el']).clear()
+        mylogin.by_id(login_el['密码el']).send_keys(u_p['密码'])
+        mylogin.by_id(login_el['登录按钮el']).click()
         try:
-            get_text=mybase.by_xpath(apply_center_page['搜索按钮_el']).text
+            get_text=mylogin.by_xpath(apply_center_page['搜索按钮_el']).text
             hope_text='搜索'
             assert get_text==hope_text
         except:

@@ -14,34 +14,28 @@ from base.Variables import set_page
 from base.Variables import u_p
 from base.MyBase import Base
 from base.MyBase import Login
+from base.MyUnit import My_setup_teardown
 
-class AppCenterTest(unittest.TestCase):
+class AppCenterTest(My_setup_teardown):
     """数据中心测试类"""
-    def setUp(self):
-        #实例化MyBase里的Base类
-        driver=browsers['ff']
-        self.the_dr=Base(driver)
-        #实例化LoginPage里的Login类，并登录
-        login=Login(driver)
-        login.loginpage()
-        print ("test start")
-    def tearDown(self):
-        self.the_dr.quit_browser()
-        print ("test end")
     def test_001_edit_pw(self):
         """测试是否到了编辑密码页面"""
         self.the_dr.open_browser(base_url['编辑密码url'])
+        time.sleep(3)
         self.the_dr.by_xpath(base_page['wxg_el']).click()
         self.the_dr.by_xpath(base_page['修改密码_el']).click()
         time.sleep(1)
         #开始断言
         get_text=self.the_dr.by_xpath(set_page['个人信息_el']).text
-        hope_text='1个人信息'
+        hope_text='个人信息'
         time.sleep(1)
         self.assertEqual(get_text,hope_text,'get != hope')
+if __name__=="__main__":
+    unittest.main()
+'''
     def test_002_edit_pw(self):
         """测试不输入任何东西，修改密码"""
-        self.the_dr.open_browser(base_url['编辑密码url'])
+        self..open_browser(base_url['编辑密码url'])
         self.the_dr.by_xpath(set_page['修改密码按钮_el']).click()
         time.sleep(1)
         get_text=self.the_dr.by_id("oldPassword").text
@@ -111,3 +105,4 @@ class AppCenterTest(unittest.TestCase):
         self.assertEqual(get_text,hope_text)
 if __name__=="__main__":
     unittest.main()
+'''
