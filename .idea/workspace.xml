@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4b0b05-d64b-448d-8a71-2e36f5899cf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp003.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp004.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Base.py" afterPath="$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Base.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pp_management_platform/v_3/mytest/test0003.py" afterPath="$PROJECT_DIR$/pp_management_platform/v_3/mytest/test0003.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp001.py" afterPath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp001.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp002.py" afterPath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp002.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp005.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pp_management_platform/v_3/base/MyBase.py" afterPath="$PROJECT_DIR$/pp_management_platform/v_3/base/MyBase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pp_management_platform/v_3/base/Variables.py" afterPath="$PROJECT_DIR$/pp_management_platform/v_3/base/Variables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytest/test0002.py" afterPath="$PROJECT_DIR$/mytest/test0002.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py" afterPath="$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work_one.iws" />
@@ -24,24 +24,29 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_003_edit_pw.coverage" NAME="Unittest AppCenterTest.test_003_edit_pw Coverage Results" MODIFIED="1461123399129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$base.coverage" NAME="base Coverage Results" MODIFIED="1460525743753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/for_diner" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_Myunittest_test_001.coverage" NAME="Unittest Myunittest.test_001 Coverage Results" MODIFIED="1462262834066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$PPMPFind_el.coverage" NAME="PPMPFind_el Coverage Results" MODIFIED="1459923474923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest.coverage" NAME="Unittests in AppCenterTest Coverage Results" MODIFIED="1461044791106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_Myunittest__2_.coverage" NAME="Unittests in Myunittest (2) Coverage Results" MODIFIED="1462263460424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$appium002.coverage" NAME="appium002 Coverage Results" MODIFIED="1461755000570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
     <SUITE FILE_PATH="coverage/work_one$testapp002.coverage" NAME="testapp002 Coverage Results" MODIFIED="1461837411868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_test_login01_test_login_suess.coverage" NAME="Unittest test_login01.test_login_suess Coverage Results" MODIFIED="1459236458417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_007.coverage" NAME="Unittest AppCenterTest.test_edit_pw_007 Coverage Results" MODIFIED="1461118311547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$testapp005.coverage" NAME="testapp005 Coverage Results" MODIFIED="1462247322782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_login01.coverage" NAME="Unittests in login01 Coverage Results" MODIFIED="1459234941502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_login01__1_.coverage" NAME="Unittests in test_login01 (1) Coverage Results" MODIFIED="1459236519497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_MyUnit.coverage" NAME="Unittests in MyUnit Coverage Results" MODIFIED="1462263411962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_005.coverage" NAME="Unittest AppCenterTest.test_edit_pw_005 Coverage Results" MODIFIED="1461054545788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
-    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_001_edit_pw.coverage" NAME="Unittest AppCenterTest.test_001_edit_pw Coverage Results" MODIFIED="1461137729362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$RunTestCase__1_.coverage" NAME="RunTestCase (1) Coverage Results" MODIFIED="1461220300134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_001_edit_pw.coverage" NAME="Unittest AppCenterTest.test_001_edit_pw Coverage Results" MODIFIED="1462265806937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$DD_Data.coverage" NAME="DD_Data Coverage Results" MODIFIED="1461834174541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_base" />
     <SUITE FILE_PATH="coverage/work_one$mytest001.coverage" NAME="mytest001 Coverage Results" MODIFIED="1460616081160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/for_diner" />
     <SUITE FILE_PATH="coverage/work_one$PPMPChoseBrowser.coverage" NAME="PPMPChoseBrowser Coverage Results" MODIFIED="1459913255946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_Myunittest__1_.coverage" NAME="Unittests in Myunittest (1) Coverage Results" MODIFIED="1462262981619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$testapp001.coverage" NAME="testapp001 Coverage Results" MODIFIED="1461830004921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_login01.coverage" NAME="Unittests in test_login01 Coverage Results" MODIFIED="1459235512789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$test0001.coverage" NAME="test0001 Coverage Results" MODIFIED="1461648465387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
-    <SUITE FILE_PATH="coverage/work_one$test0002__1_.coverage" NAME="test0002 (1) Coverage Results" MODIFIED="1461584076559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/work_one$test0002__1_.coverage" NAME="test0002 (1) Coverage Results" MODIFIED="1462259646988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_004.coverage" NAME="Unittest AppCenterTest.test_edit_pw_004 Coverage Results" MODIFIED="1461054198609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$test0002.coverage" NAME="test0002 Coverage Results" MODIFIED="1461304554619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/mytest" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun01.coverage" NAME="BaseFun01 Coverage Results" MODIFIED="1459244485048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/base" />
@@ -54,15 +59,18 @@
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_008_quit.coverage" NAME="Unittest AppCenterTest.test_008_quit Coverage Results" MODIFIED="1461138008062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun.coverage" NAME="BaseFun Coverage Results" MODIFIED="1460009111800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_003.coverage" NAME="Unittest AppCenterTest.test_edit_pw_003 Coverage Results" MODIFIED="1461053576359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$MyUnit.coverage" NAME="MyUnit Coverage Results" MODIFIED="1462262640616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$MyBase_v1.coverage" NAME="MyBase_v1 Coverage Results" MODIFIED="1460971116830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$api0001.coverage" NAME="api0001 Coverage Results" MODIFIED="1461561719018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__2_.coverage" NAME="Unittests in AppCenterTest (2) Coverage Results" MODIFIED="1460977020190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
-    <SUITE FILE_PATH="coverage/work_one$MyBase.coverage" NAME="MyBase Coverage Results" MODIFIED="1461219612379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
+    <SUITE FILE_PATH="coverage/work_one$MyBase.coverage" NAME="MyBase Coverage Results" MODIFIED="1462260547206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_My_setup_teardown__1_.coverage" NAME="Unittests in My_setup_teardown (1) Coverage Results" MODIFIED="1462264736539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_LoginAndroidTests.coverage" NAME="Unittests in LoginAndroidTests Coverage Results" MODIFIED="1461231848963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_002_nothing_input.coverage" NAME="Unittest AppCenterTest.test_002_nothing_input Coverage Results" MODIFIED="1460964783093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittest_My_setup_teardown_test_001.coverage" NAME="Unittest My_setup_teardown.test_001 Coverage Results" MODIFIED="1462264795573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$Page.coverage" NAME="Page Coverage Results" MODIFIED="1460713910450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
-    <SUITE FILE_PATH="coverage/work_one$test_center.coverage" NAME="test_center Coverage Results" MODIFIED="1461122857435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$test0003.coverage" NAME="test0003 Coverage Results" MODIFIED="1461827020792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/mytest" />
+    <SUITE FILE_PATH="coverage/work_one$test_center.coverage" NAME="test_center Coverage Results" MODIFIED="1462265567237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$PPMPLogin.coverage" NAME="PPMPLogin Coverage Results" MODIFIED="1459910905844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/work_one$ppkpChoseBrowser.coverage" NAME="ppkpChoseBrowser Coverage Results" MODIFIED="1459330611244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/base" />
     <SUITE FILE_PATH="coverage/work_one$page_of_app_cente.coverage" NAME="page_of_app_cente Coverage Results" MODIFIED="1460455047579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
@@ -70,11 +78,14 @@
     <SUITE FILE_PATH="coverage/work_one$api0002.coverage" NAME="api0002 Coverage Results" MODIFIED="1461571080364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
     <SUITE FILE_PATH="coverage/work_one$appium001.coverage" NAME="appium001 Coverage Results" MODIFIED="1461755600382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
     <SUITE FILE_PATH="coverage/work_one$testapp004.coverage" NAME="testapp004 Coverage Results" MODIFIED="1461919057486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_My_setup_teardown__2_.coverage" NAME="Unittests in My_setup_teardown (2) Coverage Results" MODIFIED="1462265096566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$app_center_base.coverage" NAME="app_center_base Coverage Results" MODIFIED="1460448494136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/pp_app_center" />
     <SUITE FILE_PATH="coverage/work_one$DD_Base.coverage" NAME="DD_Base Coverage Results" MODIFIED="1461924108392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_base" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_My_setup_teardown.coverage" NAME="Unittests in My_setup_teardown Coverage Results" MODIFIED="1462265595620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_on_page_edit_password.coverage" NAME="Unittest AppCenterTest.test_on_page_edit_password Coverage Results" MODIFIED="1460948743848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$all_elements.coverage" NAME="all_elements Coverage Results" MODIFIED="1461753311768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__1_.coverage" NAME="Unittests in AppCenterTest (1) Coverage Results" MODIFIED="1460976387553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
+    <SUITE FILE_PATH="coverage/work_one$Unittests_in_Myunittest.coverage" NAME="Unittests in Myunittest Coverage Results" MODIFIED="1462262885592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_008_quit__1_.coverage" NAME="Unittest AppCenterTest.test_008_quit (1) Coverage Results" MODIFIED="1461126221443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/mytest" />
     <SUITE FILE_PATH="coverage/work_one$page_app_center.coverage" NAME="page_app_center Coverage Results" MODIFIED="1461043790823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1460947946713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
@@ -91,7 +102,32 @@
     <favorites_list name="work_one" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MyUnit.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_center.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.45307443">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding>
+                <element signature="e#14#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,9 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/for_diner/login.py" />
-        <option value="$PROJECT_DIR$/v_two/pp_app_center/page_of_app_cente.py" />
-        <option value="$PROJECT_DIR$/v_two/pp_app_center/app_center_base.py" />
         <option value="$PROJECT_DIR$/v_two/pp_app_center/page_of_center.py" />
         <option value="$PROJECT_DIR$/v_two/pp_app_center/test_center_base.py" />
         <option value="$PROJECT_DIR$/v_two/base/Page.py" />
@@ -130,8 +163,6 @@
         <option value="$PROJECT_DIR$/v_3/base/MyBase.py" />
         <option value="$PROJECT_DIR$/v_3/app_center/test_center.py" />
         <option value="$PROJECT_DIR$/pp_management_platform/v_3/app_center/RunTestCase.py" />
-        <option value="$PROJECT_DIR$/pp_management_platform/v_3/base/Variables.py" />
-        <option value="$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py" />
         <option value="$PROJECT_DIR$/for_diner(work block by js)/your_info.txt" />
         <option value="$PROJECT_DIR$/for_diner(work block by js)/canshu.py" />
         <option value="$PROJECT_DIR$/pp_management_platform/v_3/mytest/test0001.py" />
@@ -142,7 +173,6 @@
         <option value="$PROJECT_DIR$/api_test/lin.xml" />
         <option value="$PROJECT_DIR$/for_diner(work block by js)/login.py" />
         <option value="$PROJECT_DIR$/api_test/api0002.py" />
-        <option value="$PROJECT_DIR$/mytest/test0002.py" />
         <option value="$PROJECT_DIR$/mytest/test0001.py" />
         <option value="$PROJECT_DIR$/my_appium_work/all_elements.py" />
         <option value="$PROJECT_DIR$/my_appium_work/appium002.py" />
@@ -157,6 +187,12 @@
         <option value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp003.py" />
         <option value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp004.py" />
         <option value="$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Base.py" />
+        <option value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp005.py" />
+        <option value="$PROJECT_DIR$/mytest/test0002.py" />
+        <option value="$PROJECT_DIR$/pp_management_platform/v_3/base/MyBase.py" />
+        <option value="$PROJECT_DIR$/pp_management_platform/v_3/base/Variables.py" />
+        <option value="$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py" />
+        <option value="$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py" />
       </list>
     </option>
   </component>
@@ -197,7 +233,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -215,26 +250,8 @@
               <option name="myItemId" value="work_one" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="work_one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="work_one" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_appium_work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daidai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dd_test" />
+              <option name="myItemId" value="pp_management_platform" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,16 +265,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="my_appium_work" />
+              <option name="myItemId" value="mytest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="daidai" />
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,95 +297,115 @@
       <recent name="D:\mygit\work_one\v_two\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DD_Base">
-    <configuration default="false" name="testapp002" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittest AppCenterTest.test_001_edit_pw">
+    <configuration default="false" name="Unittests in My_setup_teardown" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pp_management_platform/v_3/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="work_one" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py" />
+      <option name="CLASS_NAME" value="My_setup_teardown" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_center" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp002.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="DD_Data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest My_setup_teardown.test_001" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_appium_work/daidai/dd_base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pp_management_platform/v_3/base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py" />
+      <option name="CLASS_NAME" value="My_setup_teardown" />
+      <option name="METHOD_NAME" value="test_001" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="DD_Base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in My_setup_teardown (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_appium_work/daidai/dd_base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pp_management_platform/v_3/base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py" />
+      <option name="CLASS_NAME" value="My_setup_teardown" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="testapp001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest AppCenterTest.test_001_edit_pw" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp001.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testapp004" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="work_one" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp004.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py" />
+      <option name="CLASS_NAME" value="AppCenterTest" />
+      <option name="METHOD_NAME" value="test_001_edit_pw" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -591,19 +635,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.testapp003" />
       <item index="1" class="java.lang.String" itemvalue="Python.test0002" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testapp002" />
-      <item index="3" class="java.lang.String" itemvalue="Python.DD_Data" />
-      <item index="4" class="java.lang.String" itemvalue="Python.DD_Base" />
-      <item index="5" class="java.lang.String" itemvalue="Python.testapp001" />
-      <item index="6" class="java.lang.String" itemvalue="Python.testapp004" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in My_setup_teardown" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_center" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest My_setup_teardown.test_001" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in My_setup_teardown (2)" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_001_edit_pw" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.DD_Base" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testapp004" />
-        <item index="2" class="java.lang.String" itemvalue="Python.testapp002" />
-        <item index="3" class="java.lang.String" itemvalue="Python.DD_Data" />
-        <item index="4" class="java.lang.String" itemvalue="Python.testapp001" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest AppCenterTest.test_001_edit_pw" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in My_setup_teardown" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_center" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in My_setup_teardown (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest My_setup_teardown.test_001" />
       </list>
     </recent_temporary>
   </component>
@@ -622,18 +666,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2965368" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14583333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28060836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -641,7 +686,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32142857" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -674,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mytest/test0002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mytest/test0001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -877,33 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/Variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4831461">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6292135">
-          <caret line="38" column="63" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/MyBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0627803">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8202247">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.81219906">
           <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28089887">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,17 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.031496063">
           <caret line="3" column="41" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp004.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#29#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,28 +975,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1904762">
           <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
-            <element signature="e#14#74#0" expanded="true" />
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
-          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="e#14#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_base/DD_Data.py">
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2380953">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp004.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3171521">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_appium_work/daidai/dd_test/testapp005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6343042">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/test0002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.045307443">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/MyBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090614885">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/Variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.090614885">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/MyUnit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
-            <element signature="e#14#42#0" expanded="true" />
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.45307443">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
