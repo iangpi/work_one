@@ -18,7 +18,11 @@ class Data(object):
         infos_dict={'nexus5版本':'6.0.1',
                     'nexus5设备名':'06b947cf00691c51',
                     'redminote2版本':'5.0.2',
-                    'redminote2设备名':'6LJZW4DUDQCM8L5T'
+                    'redminote2设备名':'6LJZW4DUDQCM8L5T',
+                    'nexus6版本':'6.0.1',
+                    'nexus6设备名':'ZY222ZG98P',
+                    'nexus7版本':'6.0.1',
+                    'nexus7设备名':'0a609382'
                     }
         return infos_dict[info]
 
