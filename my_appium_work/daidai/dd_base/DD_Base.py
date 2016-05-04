@@ -60,14 +60,14 @@ class Base(object):
         return TouchAction(self.dr).press(x=int(a),y=int(b)).move_to(x=int(a1)-int(a),y=int(b1)-int(b)).release().perform()
 
 if __name__=="__main__":
-    version=Data.phone_info('redminote2版本')
-    name=Data.phone_info('redminote2设备名')
-    apk_path=r'D:\test_app\daidai_2016.04.15_1.0.0_1040.production_yzl.apk'
+    version=Data.phone_info('nexus7版本')
+    name=Data.phone_info('nexus7设备名')
+    apk_path=r'E:\daidai_2016.04.15_1.0.0_1040.production_yzl.apk'
 
     test001=Base(version,name,apk_path)
     test001.start_driver()
     time.sleep(4)
-    test001.move_to(500,1400,00,200)
+    test001.move_to(500,1400,500,200)
     time.sleep(4)
     test001.by_id(Data.home_els('商店')).click()
     time.sleep(5)
