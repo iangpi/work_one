@@ -1,2 +1,1 @@
-to='asd'
-print to
+print 5550+4520
