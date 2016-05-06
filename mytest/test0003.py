@@ -5,9 +5,8 @@ els=ff.find_elements_by_class_name("mnav")
 res=[]
 for el in els:
     res.append(el)
-print res[0].text
-print res[1].text
-print res[2].text
-print res[3].text
-print res[4].text
-print res[5].text
+print len(res)
+n=len(res)
+for i in xrange(n):
+    print res[i].text
+#print res[0].text,res[1].text,res[2].text,res[3].text,res[4].text,res[5].text
