@@ -22,7 +22,9 @@ class Data(object):
                     'nexus6版本':'6.0.1',
                     'nexus6设备名':'ZY222ZG98P',
                     'nexus7版本':'6.0.1',
-                    'nexus7设备名':'0a609382'
+                    'nexus7设备名':'0a609382',
+                    '红米1版本':'4.2.1',
+                    '红迷1设备名':'UW6SB69SHANVKRGU'
                     }
         return infos_dict[info]
 
