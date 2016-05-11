@@ -9,7 +9,7 @@ desired_caps['platformName']='Android'#系统
 desired_caps['browserName']=''
 desired_caps['version']='4.2.1'
 desired_caps['deviceName']='UW6SB69SHANVKRGU'
-desired_caps['app'] = PATH(r'D:\test_app\up.apk')
+desired_caps['app'] = PATH(r'D:\test_app\up_2016.05.10_1.0.0_715.apk')
 
 #联系从屏幕获取坐标后，模拟滑滑动操作
 dr=webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
