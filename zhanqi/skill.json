@@ -1,0 +1,6869 @@
+[
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 1,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 2,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻110%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.1,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 3,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻120%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.2,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 4,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻130%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.3,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 5,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻140%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.4,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 6,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻150%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.5,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 7,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻160%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.6,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 8,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻170%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.7,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill001",
+    "name": "死亡炸弹",
+    "type": 2,
+    "level": 9,
+    "desc": "死亡时朝两格内的随机一个敌人造成物攻180%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill001"
+    ],
+    "params": {
+      "percent": 1.8,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill002",
+    "name": "标记助攻",
+    "type": 2,
+    "level": 1,
+    "desc": "射程范围内，当有标记效果的友方攻击，自动助攻造成伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "range": 0
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill002",
+    "name": "标记助攻",
+    "type": 2,
+    "level": 2,
+    "desc": "射程+1范围内，当有标记效果的友方攻击，自动助攻造成伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill002",
+    "name": "标记助攻",
+    "type": 2,
+    "level": 3,
+    "desc": "射程+2范围内，当有标记效果的友方攻击，自动助攻造成伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "range": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 1,
+    "desc": "额外增加2%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.02
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 2,
+    "desc": "额外增加3%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.03
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 3,
+    "desc": "额外增加4%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.04
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 4,
+    "desc": "额外增加5%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.05
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 5,
+    "desc": "额外增加6%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.06
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 6,
+    "desc": "额外增加7%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.07
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 7,
+    "desc": "额外增加8%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.08
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 8,
+    "desc": "额外增加9%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.09
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill005",
+    "name": "鬃毛护体",
+    "type": 2,
+    "level": 9,
+    "desc": "额外增加10%物理免伤率。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.1
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill008",
+    "name": "法术助攻",
+    "type": 2,
+    "level": 1,
+    "desc": "射程范围内，当有友方的法师攻击，自动助攻造成伤害。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "range": 0
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill008",
+    "name": "法术助攻",
+    "type": 2,
+    "level": 2,
+    "desc": "射程+1范围内，当有友方的法师攻击，自动助攻造成伤害。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill008",
+    "name": "法术助攻",
+    "type": 2,
+    "level": 3,
+    "desc": "射程+2范围内，当有友方的法师攻击，自动助攻造成伤害。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "range": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成法强100%的法术伤害，10%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 2,
+    "desc": "造成法强105%的法术伤害，10%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.05,
+      "percent2": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 3,
+    "desc": "造成法强105%的法术伤害，15%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.05,
+      "percent2": 0.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 4,
+    "desc": "造成法强110%的法术伤害，15%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.1,
+      "percent2": 0.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 5,
+    "desc": "造成法强110%的法术伤害，20%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.1,
+      "percent2": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 6,
+    "desc": "造成法强115%的法术伤害，20%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.15,
+      "percent2": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 7,
+    "desc": "造成法强115%的法术伤害，25%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.15,
+      "percent2": 0.25
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 8,
+    "desc": "造成法强120%的法术伤害，25%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.2,
+      "percent2": 0.25
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill010",
+    "name": "雷击",
+    "type": 1,
+    "level": 9,
+    "desc": "造成法强120%的法术伤害，30%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill010"
+    ],
+    "params": {
+      "percent1": 1.2,
+      "percent2": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物攻100%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 2,
+    "desc": "造成物攻103%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.03
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 3,
+    "desc": "造成物攻106%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.06
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 4,
+    "desc": "造成物攻109%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.09
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 5,
+    "desc": "造成物攻112%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.12
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 6,
+    "desc": "造成物攻115%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 7,
+    "desc": "造成物攻118%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.18
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 8,
+    "desc": "造成物攻121%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.21
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill014",
+    "name": "强力一击",
+    "type": 1,
+    "level": 9,
+    "desc": "造成物攻124%的物理伤害。攻击带有标记效果。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.24
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 1,
+    "desc": "造成法强的100%的法术伤害，对2格内额外弹射1次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1,
+      "jump": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 2,
+    "desc": "造成法强的100%的法术伤害，对2格内额外弹射2次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.1,
+      "jump": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 3,
+    "desc": "造成法强的110%的法术伤害，对2格内额外弹射2次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.2,
+      "jump": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 4,
+    "desc": "造成法强的110%的法术伤害，对2格内额外弹射3次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.2,
+      "jump": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 5,
+    "desc": "造成法强的120%的法术伤害，对2格内额外弹射3次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.3,
+      "jump": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 6,
+    "desc": "造成法强的120%的法术伤害，对2格内额外弹射4次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.3,
+      "jump": 5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 7,
+    "desc": "造成法强的130%的法术伤害，对2格内额外弹射4次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.4,
+      "jump": 5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 8,
+    "desc": "造成法强的130%的法术伤害，对2格内额外弹射5次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.4,
+      "jump": 6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill017",
+    "name": "连环霜冻",
+    "type": 1,
+    "level": 9,
+    "desc": "造成法强的140%的法术伤害，对2格内额外弹射5次。",
+    "percent": 1,
+    "assets": [
+      "skill017"
+    ],
+    "params": {
+      "percent": 1.5,
+      "jump": 6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 1,
+    "desc": "造成法强的100%的法术伤害，对2格内产生额外2次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1,
+      "jump": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 2,
+    "desc": "造成法强的105%的法术伤害，对2格内产生额外2次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.05,
+      "jump": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 3,
+    "desc": "造成法强的105%的法术伤害，对2格内产生额外3次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.05,
+      "jump": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 4,
+    "desc": "造成法强的110%的法术伤害，对2格内产生额外3次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.1,
+      "jump": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 5,
+    "desc": "造成法强的110%的法术伤害，对2格内产生额外4次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.1,
+      "jump": 5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 6,
+    "desc": "造成法强的115%的法术伤害，对2格内产生额外4次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.15,
+      "jump": 5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 7,
+    "desc": "造成法强的115%的法术伤害，对2格内产生额外5次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.15,
+      "jump": 6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 8,
+    "desc": "造成法强的120%的法术伤害，对2格内产生额外5次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.2,
+      "jump": 6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill020",
+    "name": "弧形闪电",
+    "type": 1,
+    "level": 9,
+    "desc": "造成法强的120%的法术伤害，对2格内产生额外6次不重复的弹跳。",
+    "percent": 1,
+    "assets": [
+      "skill020"
+    ],
+    "params": {
+      "percent": 1.2,
+      "jump": 7
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 1,
+    "desc": "对目标及其周围的十字区域造成物攻的80%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 0.8
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 2,
+    "desc": "对目标及其周围的十字区域造成物攻的85%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 0.85
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 3,
+    "desc": "对目标及其周围的十字区域造成物攻的90%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 0.9
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 4,
+    "desc": "对目标及其周围的十字区域造成物攻的95%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 0.95
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 5,
+    "desc": "对目标及其周围一圈的方形区域造成物攻的100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 6,
+    "desc": "对目标及其周围一圈的方形区域造成物攻的105%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 1.05
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 7,
+    "desc": "对目标及其周围一圈的方形区域造成物攻的110%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 1.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 8,
+    "desc": "对目标及其周围一圈的方形区域造成物攻的115%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 1.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill030",
+    "name": "箭雨",
+    "type": 1,
+    "level": 9,
+    "desc": "对目标及其周围一圈的方形区域造成物攻的120%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill030"
+    ],
+    "params": {
+      "percent": 1.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill057",
+    "name": "狗头人怒击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物攻100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物攻100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 2,
+    "desc": "造成物攻102%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.02
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 3,
+    "desc": "造成物攻104%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.04
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 4,
+    "desc": "造成物攻106%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.06
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 5,
+    "desc": "造成物攻108%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.08
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 6,
+    "desc": "造成物攻110%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 7,
+    "desc": "造成物攻112%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.12
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 8,
+    "desc": "造成物攻114%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.14
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill061",
+    "name": "精灵之箭",
+    "type": 1,
+    "level": 9,
+    "desc": "造成物攻116%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.16
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 1,
+    "desc": "对射程范围内最多1个目标，造成物攻100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 2,
+    "desc": "对射程范围内最多1个目标，造成物攻105%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.05,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 3,
+    "desc": "对射程范围内最多1个目标，造成物攻110%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.1,
+      "target": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 4,
+    "desc": "对射程范围内最多2个目标，造成物攻110%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.1,
+      "target": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 5,
+    "desc": "对射程范围内最多2个目标，造成物攻115%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.15,
+      "target": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 6,
+    "desc": "对射程范围内最多2个目标，造成物攻120%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.2,
+      "target": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 7,
+    "desc": "对射程范围内最多3个目标，造成物攻120%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.2,
+      "target": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 8,
+    "desc": "对射程范围内最多3个目标，造成物攻125%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.25,
+      "target": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill062",
+    "name": "箭塔射击",
+    "type": 1,
+    "level": 9,
+    "desc": "对射程范围内最多3个目标，造成物攻130%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "skill014"
+    ],
+    "params": {
+      "percent": 1.3,
+      "target": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill066",
+    "name": "狼牙棒攻击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成攻击100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成法攻100%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 2,
+    "desc": "造成法攻102%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.02
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 3,
+    "desc": "造成法攻104%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.04
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 4,
+    "desc": "造成法攻106%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.06
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 5,
+    "desc": "造成法攻108%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.08
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 6,
+    "desc": "造成法攻110%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 7,
+    "desc": "造成法攻112%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.12
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 8,
+    "desc": "造成法攻114%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.14
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill073",
+    "name": "谜之攻击",
+    "type": 1,
+    "level": 9,
+    "desc": "造成法攻116%的魔法伤害。",
+    "percent": 1,
+    "assets": [
+      "skill073"
+    ],
+    "params": {
+      "percent": 1.16
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 1,
+    "desc": "增加2%的物攻和2点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.02,
+      "speed": 2
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 2,
+    "desc": "增加4%的物攻和3点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.04,
+      "speed": 3
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 3,
+    "desc": "增加6%的物攻和4点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.06,
+      "speed": 4
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 4,
+    "desc": "增加8%的物攻和5点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.08,
+      "speed": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 5,
+    "desc": "增加10%的物攻和6点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.1,
+      "speed": 6
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 6,
+    "desc": "增加12%的物攻和7点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.12,
+      "speed": 7
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 7,
+    "desc": "增加14%的物攻和8点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.14,
+      "speed": 8
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 8,
+    "desc": "增加16%的物攻和9点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.16,
+      "speed": 9
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill089",
+    "name": "虎跃",
+    "type": 2,
+    "level": 9,
+    "desc": "增加18%的物攻和10点速度。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "attackVal": 0.18,
+      "speed": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 1,
+    "desc": "受到物理伤害16%概率对近身范围内造成300点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.16,
+      "damage": 200,
+      "percent2": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 2,
+    "desc": "受到物理伤害19%概率对近身范围内造成350点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.19,
+      "damage": 250,
+      "percent2": 0.13
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 3,
+    "desc": "受到物理伤害22%概率对近身范围内造成400点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.22,
+      "damage": 300,
+      "percent2": 0.16
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 4,
+    "desc": "受到物理伤害25%概率对近身范围内造成450点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.25,
+      "damage": 350,
+      "percent2": 0.19
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 5,
+    "desc": "受到物理伤害28%概率对近身范围内造成500点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.28,
+      "damage": 400,
+      "percent2": 0.22
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 6,
+    "desc": "受到物理伤害31%概率对近身范围内造成550点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.31,
+      "damage": 450,
+      "percent2": 0.25
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 7,
+    "desc": "受到物理伤害34%概率对近身范围内造成600点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.34,
+      "damage": 500,
+      "percent2": 0.28
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 8,
+    "desc": "受到物理伤害37%概率对近身范围内造成650点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.37,
+      "damage": 550,
+      "percent2": 0.31
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill049",
+    "name": "反击螺旋",
+    "type": 2,
+    "level": 9,
+    "desc": "受到物理伤害40%概率对近身范围内造成700点真实伤害。",
+    "percent": 1,
+    "assets": [
+      "skill049"
+    ],
+    "params": {
+      "percent1": 0.4,
+      "damage": 600,
+      "percent2": 0.34
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物攻100%的物理伤害，每回合增加20点真实伤害，最多100点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 20,
+      "maxdamage": 100
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 2,
+    "desc": "造成物攻100%的物理伤害，每回合增加30点真实伤害，最多150点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 30,
+      "maxdamage": 150
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 3,
+    "desc": "造成物攻100%的物理伤害，每回合增加40点真实伤害，最多200点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 40,
+      "maxdamage": 200
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 4,
+    "desc": "造成物攻100%的物理伤害，每回合增加50点真实伤害，最多250点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 50,
+      "maxdamage": 250
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 5,
+    "desc": "造成物攻100%的物理伤害，每回合增加60点真实伤害，最多300点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 60,
+      "maxdamage": 300
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 6,
+    "desc": "造成物攻100%的物理伤害，每回合增加70点真实伤害，最多350点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 70,
+      "maxdamage": 350
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 7,
+    "desc": "造成物攻100%的物理伤害，每回合增加80点真实伤害，最多400点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 80,
+      "maxdamage": 400
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 8,
+    "desc": "造成物攻100%的物理伤害，每回合增加90点真实伤害，最多450点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 90,
+      "maxdamage": 450
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill091",
+    "name": "战斗饥渴",
+    "type": 1,
+    "level": 9,
+    "desc": "造成物攻100%的物理伤害，每回合增加100点真实伤害，最多500点。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1,
+      "damage": 100,
+      "maxdamage": 500
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill069",
+    "name": "暗影刺击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物理攻击105%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent": 1.05
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 1,
+    "desc": "当射程+1内有敌方收到物理伤害时，20%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.2,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 2,
+    "desc": "当射程+1内有敌方收到物理伤害时，30%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.3,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 3,
+    "desc": "当射程+1内有敌方收到物理伤害时，40%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.4,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 4,
+    "desc": "当射程+1内有敌方收到物理伤害时，50%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.5,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 5,
+    "desc": "当射程+1内有敌方收到物理伤害时，60%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.6,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 6,
+    "desc": "当射程+1内有敌方收到物理伤害时，70%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.7,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 7,
+    "desc": "当射程+1内有敌方收到物理伤害时，80%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.8,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 8,
+    "desc": "当射程+1内有敌方收到物理伤害时，90%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 0.9,
+      "percent2": 1,
+      "range": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill021",
+    "name": "趁火打劫",
+    "type": 2,
+    "level": 9,
+    "desc": "当射程+1内有敌方收到物理伤害时，100%发动一次物攻100%的助攻。",
+    "percent": 1,
+    "assets": [
+      "skill021"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 1,
+    "desc": "攻击时有10%概率造成2次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.1,
+      "time": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 2,
+    "desc": "攻击时有15%概率造成2次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.15,
+      "time": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 3,
+    "desc": "攻击时有20%概率造成2次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.2,
+      "time": 2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 4,
+    "desc": "攻击时有20%概率造成3次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.2,
+      "time": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 5,
+    "desc": "攻击时有25%概率造成3次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.25,
+      "time": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 6,
+    "desc": "攻击时有30%概率造成3次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.3,
+      "time": 3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 7,
+    "desc": "攻击时有30%概率造成4次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.3,
+      "time": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 8,
+    "desc": "攻击时有35%概率造成4次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.35,
+      "time": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill052",
+    "name": "多重施法",
+    "type": 2,
+    "level": 9,
+    "desc": "攻击时有40%概率造成4次伤害。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent": 0.4,
+      "time": 4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 1,
+    "desc": "造成法强100%的法术伤害，并且有14%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.14
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 2,
+    "desc": "造成法强100%的法术伤害，并且有16%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.16
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 3,
+    "desc": "造成法强100%的法术伤害，并且有18%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.18
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 4,
+    "desc": "造成法强100%的法术伤害，并且有20%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 5,
+    "desc": "造成法强100%的法术伤害，并且有22%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.22
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 6,
+    "desc": "造成法强100%的法术伤害，并且有24%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.24
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 7,
+    "desc": "造成法强100%的法术伤害，并且有26%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.26
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 8,
+    "desc": "造成法强100%的法术伤害，并且有28%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.28
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill053",
+    "name": "火焰爆轰",
+    "type": 1,
+    "level": 9,
+    "desc": "造成法强100%的法术伤害，并且有30%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "skill052"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 1,
+    "desc": "对友方单位造成法术强度100%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 2,
+    "desc": "对友方单位造成法术强度102%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.02
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 3,
+    "desc": "对友方单位造成法术强度104%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.04
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 4,
+    "desc": "对友方单位造成法术强度106%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.06
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 5,
+    "desc": "对友方单位造成法术强度108%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.08
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 6,
+    "desc": "对友方单位造成法术强度110%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 7,
+    "desc": "对友方单位造成法术强度112%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.12
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 8,
+    "desc": "对友方单位造成法术强度114%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.14
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill022",
+    "name": "精灵治愈",
+    "type": 1,
+    "level": 9,
+    "desc": "对友方单位造成法术强度116%的治疗效果。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1.16
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 1,
+    "desc": "20%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 2,
+    "desc": "30%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 3,
+    "desc": "40%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 4,
+    "desc": "50%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 5,
+    "desc": "60%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 6,
+    "desc": "70%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.7
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 7,
+    "desc": "80%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.8
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 8,
+    "desc": "90%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 0.9
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill147",
+    "name": "自然之助",
+    "type": 2,
+    "level": 9,
+    "desc": "100%额外再发动一次治疗。额外治疗不会再触发此被动。",
+    "percent": 1,
+    "assets": [
+      "skill022"
+    ],
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 1,
+    "desc": "增加2%的基础法强和2点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.02,
+      "armor": 2
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 2,
+    "desc": "增加3%的基础法强和3点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.03,
+      "armor": 3
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 3,
+    "desc": "增加4%的基础法强和4点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.04,
+      "armor": 4
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 4,
+    "desc": "增加5%的基础法强和5点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.05,
+      "armor": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 5,
+    "desc": "增加6%的基础法强和6点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.06,
+      "armor": 6
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 6,
+    "desc": "增加7%的基础法强和7点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.07,
+      "armor": 7
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 7,
+    "desc": "增加8%的基础法强和8点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.08,
+      "armor": 8
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 8,
+    "desc": "增加9%的基础法强和9点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.09,
+      "armor": 9
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill146",
+    "name": "心灵之火",
+    "type": 2,
+    "level": 9,
+    "desc": "增加10%的基础法强和10点护甲。",
+    "percent": 1,
+    "params": {
+      "powerVal": 0.1,
+      "armor": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 1,
+    "desc": "受到物理伤害时，有6%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.06
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 2,
+    "desc": "受到物理伤害时，有9%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.09
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 3,
+    "desc": "受到物理伤害时，有12%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.12
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 4,
+    "desc": "受到物理伤害时，有15%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.15
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 5,
+    "desc": "受到物理伤害时，有18%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.18
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 6,
+    "desc": "受到物理伤害时，有21%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.21
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 7,
+    "desc": "受到物理伤害时，有24%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.24
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 8,
+    "desc": "受到物理伤害时，有27%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.27
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill149",
+    "name": "风行",
+    "type": 2,
+    "level": 9,
+    "desc": "受到物理伤害时，有30%的概率闪避掉本次伤害。",
+    "percent": 1,
+    "params": {
+      "percent": 0.3
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 1,
+    "desc": "额外增加4点护甲。受到物攻时，有4%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 4,
+      "percent": 0.04
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 2,
+    "desc": "额外增加6点护甲。受到物攻时，有6%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 6,
+      "percent": 0.06
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 3,
+    "desc": "额外增加8点护甲。受到物攻时，有8%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 8,
+      "percent": 0.08
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 4,
+    "desc": "额外增加10点护甲。受到物攻时，有10%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 10,
+      "percent": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 5,
+    "desc": "额外增加12点护甲。受到物攻时，有12%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 12,
+      "percent": 0.12
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 6,
+    "desc": "额外增加14点护甲。受到物攻时，有14%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 14,
+      "percent": 0.14
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 7,
+    "desc": "额外增加16点护甲。受到物攻时，有16%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 16,
+      "percent": 0.16
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 8,
+    "desc": "额外增加18点护甲。受到物攻时，有18%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 18,
+      "percent": 0.18
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill150",
+    "name": "霜冻之甲",
+    "type": 2,
+    "level": 9,
+    "desc": "额外增加20点护甲。受到物攻时，有20%概率冻结攻击者。",
+    "percent": 1,
+    "params": {
+      "armor": 20,
+      "percent": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 1,
+    "desc": "攻击时20%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.2,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 2,
+    "desc": "攻击时30%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.3,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 3,
+    "desc": "攻击时40%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.4,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 4,
+    "desc": "攻击时50%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.5,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 5,
+    "desc": "攻击时60%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.6,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 6,
+    "desc": "攻击时70%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.7,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 7,
+    "desc": "攻击时80%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.8,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 8,
+    "desc": "攻击时90%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 0.9,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill151",
+    "name": "众神之怒",
+    "type": 2,
+    "level": 9,
+    "desc": "攻击时100%对场上一个随机敌人造成100%的法术伤害。",
+    "percent": 1,
+    "assets": [
+      "skill151"
+    ],
+    "params": {
+      "percent1": 1,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物攻100%的物理伤害，22%概率造成额外400点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1,
+      "percent2": 0.22,
+      "damage": 400
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 2,
+    "desc": "造成物攻105%的物理伤害，24%概率造成额外550点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.05,
+      "percent2": 0.24,
+      "damage": 550
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 3,
+    "desc": "造成物攻110%的物理伤害，26%概率造成额外700点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.1,
+      "percent2": 0.26,
+      "damage": 700
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 4,
+    "desc": "造成物攻115%的物理伤害，28%概率造成额外850点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.15,
+      "percent2": 0.28,
+      "damage": 850
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 5,
+    "desc": "造成物攻120%的物理伤害，30%概率造成额外1000点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.2,
+      "percent2": 0.3,
+      "damage": 1000
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 6,
+    "desc": "造成物攻125%的物理伤害，32%概率造成额外1150点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.25,
+      "percent2": 0.32,
+      "damage": 1150
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 7,
+    "desc": "造成物攻130%的物理伤害，34%概率造成额外1300点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.3,
+      "percent2": 0.34,
+      "damage": 1300
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 8,
+    "desc": "造成物攻135%的物理伤害，36%概率造成额外1450点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.35,
+      "percent2": 0.36,
+      "damage": 1450
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill039",
+    "name": "恩赐解脱",
+    "type": 1,
+    "level": 9,
+    "desc": "造成物攻140%的物理伤害，38%概率造成额外1600点真实伤害。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.4,
+      "percent2": 0.38,
+      "damage": 1600
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 1,
+    "desc": "当攻击范围内有敌方收到物理伤害时，20%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.2,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 2,
+    "desc": "当攻击范围内有敌方收到物理伤害时，30%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.3,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 3,
+    "desc": "当攻击范围内有敌方收到物理伤害时，40%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.4,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 4,
+    "desc": "当攻击范围内有敌方收到物理伤害时，50%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.5,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 5,
+    "desc": "当攻击范围内有敌方收到物理伤害时，60%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.6,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 6,
+    "desc": "当攻击范围内有敌方收到物理伤害时，70%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.7,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 7,
+    "desc": "当攻击范围内有敌方收到物理伤害时，80%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.8,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 8,
+    "desc": "当攻击范围内有敌方收到物理伤害时，90%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.9,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill094",
+    "name": "幻影突袭",
+    "type": 2,
+    "level": 9,
+    "desc": "当攻击范围内有敌方收到物理伤害时，100%发动一次物攻150%的助攻。",
+    "percent": 1,
+    "params": {
+      "percent1": 1,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 1,
+    "desc": "造成物攻86%的物理伤害，有20%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.86,
+      "percent2": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 2,
+    "desc": "造成物攻92%的物理伤害，有30%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.92,
+      "percent2": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 3,
+    "desc": "造成物攻98%的物理伤害，有40%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 0.98,
+      "percent2": 0.4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 4,
+    "desc": "造成物攻104%的物理伤害，有50%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.04,
+      "percent2": 0.5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 5,
+    "desc": "造成物攻110%的物理伤害，有60%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.1,
+      "percent2": 0.6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 6,
+    "desc": "造成物攻116%的物理伤害，有70%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.16,
+      "percent2": 0.7
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 7,
+    "desc": "造成物攻122%的物理伤害，有80%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.22,
+      "percent2": 0.8
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 8,
+    "desc": "造成物攻128%的物理伤害，有90%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.28,
+      "percent2": 0.9
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill040",
+    "name": "虚空重击",
+    "type": 1,
+    "level": 9,
+    "desc": "造成物攻134%的物理伤害，有100%概率让目标昏迷。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.34,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 1,
+    "desc": "在受到伤害值时，有10%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 2,
+    "desc": "在受到伤害值时，有15%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 3,
+    "desc": "在受到伤害值时，有20%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 4,
+    "desc": "在受到伤害值时，有25%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.25
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 5,
+    "desc": "在受到伤害值时，有30%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 6,
+    "desc": "在受到伤害值时，有35%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.35
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 7,
+    "desc": "在受到伤害值时，有40%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 8,
+    "desc": "在受到伤害值时，有45%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.45
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill041",
+    "name": "回到过去",
+    "type": 2,
+    "level": 9,
+    "desc": "在受到伤害值时，有50%概率将伤害值减少为0。",
+    "percent": 1,
+    "params": {
+      "percent": 0.5
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill012",
+    "name": "龙族血统",
+    "type": 2,
+    "level": 1,
+    "desc": "每回合行动时回复10%最大生命值。",
+    "percent": 1,
+    "assets": [
+      "skill012"
+    ],
+    "params": {
+      "percent": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill012",
+    "name": "龙族血统",
+    "type": 2,
+    "level": 2,
+    "desc": "每回合行动时回复15%最大生命值。",
+    "percent": 1,
+    "assets": [
+      "skill012"
+    ],
+    "params": {
+      "percent": 0.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill012",
+    "name": "龙族血统",
+    "type": 2,
+    "level": 3,
+    "desc": "每回合行动时回复20%最大生命值。",
+    "percent": 1,
+    "assets": [
+      "skill012"
+    ],
+    "params": {
+      "percent": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill012",
+    "name": "龙族血统",
+    "type": 2,
+    "level": 4,
+    "desc": "每回合行动时回复25%最大生命值。",
+    "percent": 1,
+    "assets": [
+      "skill012"
+    ],
+    "params": {
+      "percent": 0.25
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill012",
+    "name": "龙族血统",
+    "type": 2,
+    "level": 5,
+    "desc": "每回合行动时回复30%最大生命值。",
+    "percent": 1,
+    "assets": [
+      "skill012"
+    ],
+    "params": {
+      "percent": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 1,
+    "desc": "对近身敌人造成法强100%的法术伤害，自己损失法强100%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1,
+      "percent2": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 2,
+    "desc": "对近身敌人造成法强105%的法术伤害，自己损失法强95%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.05,
+      "percent2": 0.95
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 3,
+    "desc": "对近身敌人造成法强110%的法术伤害，自己损失法强90%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.1,
+      "percent2": 0.9
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 4,
+    "desc": "对近身敌人造成法强115%的法术伤害，自己损失法强85%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.15,
+      "percent2": 0.85
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 5,
+    "desc": "对近身敌人造成法强120%的法术伤害，自己损失法强80%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.2,
+      "percent2": 0.8
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 6,
+    "desc": "对近身敌人造成法强125%的法术伤害，自己损失法强75%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.25,
+      "percent2": 0.75
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 7,
+    "desc": "对近身敌人造成法强130%的法术伤害，自己损失法强70%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.3,
+      "percent2": 0.7
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 8,
+    "desc": "对近身敌人造成法强135%的法术伤害，自己损失法强65%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.35,
+      "percent2": 0.65
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill013",
+    "name": "腐烂",
+    "type": 1,
+    "level": 9,
+    "desc": "对近身敌人造成法强140%的法术伤害，自己损失法强60%的血量。",
+    "percent": 1,
+    "params": {
+      "percent1": 1.4,
+      "percent2": 0.6
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 1,
+    "desc": "对目标造成物攻100%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 2,
+    "desc": "对目标造成物攻105%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.05
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 3,
+    "desc": "对目标造成物攻110%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 4,
+    "desc": "对目标造成物攻115%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 5,
+    "desc": "对目标造成物攻120%的物理伤害。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 6,
+    "desc": "对目标造成物攻125%的物理伤害，有10%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.25,
+      "percent2": 0.1
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 7,
+    "desc": "对目标造成物攻130%的物理伤害，有20%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.3,
+      "percent2": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 8,
+    "desc": "对目标造成物攻135%的物理伤害，有30%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.35,
+      "percent2": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill075",
+    "name": "神龙摆尾",
+    "type": 1,
+    "level": 9,
+    "desc": "对目标造成物攻140%的物理伤害，有40%概率让目标昏迷。",
+    "percent": 1,
+    "assets": [
+      "normalAttack"
+    ],
+    "params": {
+      "percent1": 1.4,
+      "percent2": 0.4
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill077",
+    "name": "肢解",
+    "type": 2,
+    "level": 1,
+    "desc": "如果腐烂范围内只有一个敌人，腐烂之后恢复15%最大生命值。",
+    "percent": 1,
+    "assets": [
+      null
+    ],
+    "params": {
+      "percent": 0.15
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill077",
+    "name": "肢解",
+    "type": 2,
+    "level": 2,
+    "desc": "如果腐烂范围内只有一个敌人，腐烂之后恢复20%最大生命值。",
+    "percent": 1,
+    "params": {
+      "percent": 0.2
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill077",
+    "name": "肢解",
+    "type": 2,
+    "level": 3,
+    "desc": "如果腐烂范围内只有一个敌人，腐烂之后恢复25%最大生命值。",
+    "percent": 1,
+    "params": {
+      "percent": 0.25
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill077",
+    "name": "肢解",
+    "type": 2,
+    "level": 4,
+    "desc": "如果腐烂范围内只有一个敌人，腐烂之后恢复30%最大生命值。",
+    "percent": 1,
+    "params": {
+      "percent": 0.3
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill077",
+    "name": "肢解",
+    "type": 2,
+    "level": 5,
+    "desc": "如果腐烂范围内只有一个敌人，腐烂之后恢复35%最大生命值。",
+    "percent": 1,
+    "params": {
+      "percent": 0.35
+    },
+    "passiveSkillType": 2
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 1,
+    "desc": "吸血值+5",
+    "percent": 1,
+    "params": {
+      "vamp": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 2,
+    "desc": "吸血值+10",
+    "percent": 1,
+    "params": {
+      "vamp": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 3,
+    "desc": "吸血值+15",
+    "percent": 1,
+    "params": {
+      "vamp": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 4,
+    "desc": "吸血值+20",
+    "percent": 1,
+    "params": {
+      "vamp": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 5,
+    "desc": "吸血值+25",
+    "percent": 1,
+    "params": {
+      "vamp": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 6,
+    "desc": "吸血值+30",
+    "percent": 1,
+    "params": {
+      "vamp": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 7,
+    "desc": "吸血值+35",
+    "percent": 1,
+    "params": {
+      "vamp": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 8,
+    "desc": "吸血值+40",
+    "percent": 1,
+    "params": {
+      "vamp": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 9,
+    "desc": "吸血值+45",
+    "percent": 1,
+    "params": {
+      "vamp": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 10,
+    "desc": "吸血值+50",
+    "percent": 1,
+    "params": {
+      "vamp": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 11,
+    "desc": "吸血值+55",
+    "percent": 1,
+    "params": {
+      "vamp": 55
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 12,
+    "desc": "吸血值+60",
+    "percent": 1,
+    "params": {
+      "vamp": 60
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 13,
+    "desc": "吸血值+65",
+    "percent": 1,
+    "params": {
+      "vamp": 65
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 14,
+    "desc": "吸血值+70",
+    "percent": 1,
+    "params": {
+      "vamp": 70
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 15,
+    "desc": "吸血值+75",
+    "percent": 1,
+    "params": {
+      "vamp": 75
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 16,
+    "desc": "吸血值+80",
+    "percent": 1,
+    "params": {
+      "vamp": 80
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 17,
+    "desc": "吸血值+85",
+    "percent": 1,
+    "params": {
+      "vamp": 85
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 18,
+    "desc": "吸血值+90",
+    "percent": 1,
+    "params": {
+      "vamp": 90
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 19,
+    "desc": "吸血值+95",
+    "percent": 1,
+    "params": {
+      "vamp": 95
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill003",
+    "name": "吸血攻击",
+    "type": 3,
+    "level": 20,
+    "desc": "吸血值+100",
+    "percent": 1,
+    "params": {
+      "vamp": 100
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill004",
+    "name": "射程强化",
+    "type": 3,
+    "level": 1,
+    "desc": "射程+1",
+    "percent": 1,
+    "params": {
+      "range": 1
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill004",
+    "name": "射程强化",
+    "type": 3,
+    "level": 2,
+    "desc": "射程+2",
+    "percent": 1,
+    "params": {
+      "range": 2
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill004",
+    "name": "射程强化",
+    "type": 3,
+    "level": 3,
+    "desc": "射程+3",
+    "percent": 1,
+    "params": {
+      "range": 3
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 1,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的10%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.1
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 2,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的20%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.2
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 3,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的30%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.3
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 4,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的40%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.4
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 5,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的50%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.5
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 6,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的60%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.6
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 7,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的70%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.7
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 8,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的80%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.8
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 9,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的90%。",
+    "percent": 1,
+    "params": {
+      "percent": 0.9
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill006",
+    "name": "冲刺",
+    "type": 3,
+    "level": 10,
+    "desc": "攻击比自己速度慢的目标，伤害增加速度差值的百分比的100%。",
+    "percent": 1,
+    "params": {
+      "percent": 1
+    },
+    "passiveSkillType": 3
+  },
+  {
+    "id": "skill007",
+    "name": "步法轻盈",
+    "type": 3,
+    "level": 1,
+    "desc": "速度+3",
+    "percent": 1,
+    "params": {
+      "speed": 3
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill007",
+    "name": "步法轻盈",
+    "type": 3,
+    "level": 2,
+    "desc": "速度+6",
+    "percent": 1,
+    "params": {
+      "speed": 6
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill007",
+    "name": "步法轻盈",
+    "type": 3,
+    "level": 3,
+    "desc": "速度+9",
+    "percent": 1,
+    "params": {
+      "speed": 9
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill007",
+    "name": "步法轻盈",
+    "type": 3,
+    "level": 4,
+    "desc": "速度+12",
+    "percent": 1,
+    "params": {
+      "speed": 12
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill007",
+    "name": "步法轻盈",
+    "type": 3,
+    "level": 5,
+    "desc": "速度+15",
+    "percent": 1,
+    "params": {
+      "speed": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill011",
+    "name": "快速愈合",
+    "type": 3,
+    "level": 1,
+    "desc": "受到的治疗效果增加10%。",
+    "percent": 1,
+    "params": {
+      "healingBonus": 0.1
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill011",
+    "name": "快速愈合",
+    "type": 3,
+    "level": 2,
+    "desc": "受到的治疗效果增加20%。",
+    "percent": 1,
+    "params": {
+      "healingBonus": 0.2
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill011",
+    "name": "快速愈合",
+    "type": 3,
+    "level": 3,
+    "desc": "受到的治疗效果增加30%。",
+    "percent": 1,
+    "params": {
+      "healingBonus": 0.3
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill011",
+    "name": "快速愈合",
+    "type": 3,
+    "level": 4,
+    "desc": "受到的治疗效果增加40%。",
+    "percent": 1,
+    "params": {
+      "healingBonus": 0.4
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill011",
+    "name": "快速愈合",
+    "type": 3,
+    "level": 5,
+    "desc": "受到的治疗效果增加50%。",
+    "percent": 1,
+    "params": {
+      "healingBonus": 0.5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill018",
+    "name": "忍术",
+    "type": 3,
+    "level": 1,
+    "desc": "在布阵阶段移动位置之后，不会丧失行动力。",
+    "percent": 1,
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill050",
+    "name": "狂战士怒吼",
+    "type": 3,
+    "level": 1,
+    "desc": "自身提高额外的3%物理免伤率。",
+    "percent": 1,
+    "params": {
+      "ExtraPDR": 0.03
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill050",
+    "name": "狂战士怒吼",
+    "type": 3,
+    "level": 2,
+    "desc": "自身提高额外的6%物理免伤率。",
+    "percent": 1,
+    "params": {
+      "ExtraPDR": 0.06
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 1,
+    "desc": "暴击值+5",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 2,
+    "desc": "暴击值+10",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 3,
+    "desc": "暴击值+15",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 4,
+    "desc": "暴击值+20",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 5,
+    "desc": "暴击值+25",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 6,
+    "desc": "暴击值+30",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 7,
+    "desc": "暴击值+35",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 8,
+    "desc": "暴击值+40",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 9,
+    "desc": "暴击值+45",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill058",
+    "name": "狂暴之力",
+    "type": 3,
+    "level": 10,
+    "desc": "暴击值+50",
+    "percent": 1,
+    "params": {
+      "criticalStrikeRateValue": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 1,
+    "desc": "物理穿透值+5",
+    "percent": 1,
+    "params": {
+      "baseArPV": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 2,
+    "desc": "物理穿透值+10",
+    "percent": 1,
+    "params": {
+      "baseArPV": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 3,
+    "desc": "物理穿透值+15",
+    "percent": 1,
+    "params": {
+      "baseArPV": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 4,
+    "desc": "物理穿透值+20",
+    "percent": 1,
+    "params": {
+      "baseArPV": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 5,
+    "desc": "物理穿透值+25",
+    "percent": 1,
+    "params": {
+      "baseArPV": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 6,
+    "desc": "物理穿透值+30",
+    "percent": 1,
+    "params": {
+      "baseArPV": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 7,
+    "desc": "物理穿透值+35",
+    "percent": 1,
+    "params": {
+      "baseArPV": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 8,
+    "desc": "物理穿透值+40",
+    "percent": 1,
+    "params": {
+      "baseArPV": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 9,
+    "desc": "物理穿透值+45",
+    "percent": 1,
+    "params": {
+      "baseArPV": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill059",
+    "name": "弱点攻击",
+    "type": 3,
+    "level": 10,
+    "desc": "物理穿透值+50",
+    "percent": 1,
+    "params": {
+      "baseArPV": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 1,
+    "desc": "物攻+10",
+    "percent": 1,
+    "params": {
+      "attack": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 2,
+    "desc": "物攻+20",
+    "percent": 1,
+    "params": {
+      "attack": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 3,
+    "desc": "物攻+30",
+    "percent": 1,
+    "params": {
+      "attack": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 4,
+    "desc": "物攻+40",
+    "percent": 1,
+    "params": {
+      "attack": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 5,
+    "desc": "物攻+50",
+    "percent": 1,
+    "params": {
+      "attack": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 6,
+    "desc": "物攻+60",
+    "percent": 1,
+    "params": {
+      "attack": 60
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 7,
+    "desc": "物攻+70",
+    "percent": 1,
+    "params": {
+      "attack": 70
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 8,
+    "desc": "物攻+80",
+    "percent": 1,
+    "params": {
+      "attack": 80
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 9,
+    "desc": "物攻+90",
+    "percent": 1,
+    "params": {
+      "attack": 90
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 10,
+    "desc": "物攻+100",
+    "percent": 1,
+    "params": {
+      "attack": 100
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 11,
+    "desc": "物攻+110",
+    "percent": 1,
+    "params": {
+      "attack": 110
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 12,
+    "desc": "物攻+120",
+    "percent": 1,
+    "params": {
+      "attack": 120
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 13,
+    "desc": "物攻+130",
+    "percent": 1,
+    "params": {
+      "attack": 130
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 14,
+    "desc": "物攻+140",
+    "percent": 1,
+    "params": {
+      "attack": 140
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 15,
+    "desc": "物攻+150",
+    "percent": 1,
+    "params": {
+      "attack": 150
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 16,
+    "desc": "物攻+160",
+    "percent": 1,
+    "params": {
+      "attack": 160
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 17,
+    "desc": "物攻+170",
+    "percent": 1,
+    "params": {
+      "attack": 170
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 18,
+    "desc": "物攻+180",
+    "percent": 1,
+    "params": {
+      "attack": 180
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 19,
+    "desc": "物攻+190",
+    "percent": 1,
+    "params": {
+      "attack": 190
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill060",
+    "name": "杀戮者",
+    "type": 3,
+    "level": 20,
+    "desc": "物攻+200",
+    "percent": 1,
+    "params": {
+      "attack": 200
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 1,
+    "desc": "最大生命值+100",
+    "percent": 1,
+    "params": {
+      "MaxHP": 100
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 2,
+    "desc": "最大生命值+200",
+    "percent": 1,
+    "params": {
+      "MaxHP": 200
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 3,
+    "desc": "最大生命值+300",
+    "percent": 1,
+    "params": {
+      "MaxHP": 300
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 4,
+    "desc": "最大生命值+400",
+    "percent": 1,
+    "params": {
+      "MaxHP": 400
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 5,
+    "desc": "最大生命值+500",
+    "percent": 1,
+    "params": {
+      "MaxHP": 500
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 6,
+    "desc": "最大生命值+600",
+    "percent": 1,
+    "params": {
+      "MaxHP": 600
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 7,
+    "desc": "最大生命值+700",
+    "percent": 1,
+    "params": {
+      "MaxHP": 700
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 8,
+    "desc": "最大生命值+800",
+    "percent": 1,
+    "params": {
+      "MaxHP": 800
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 9,
+    "desc": "最大生命值+900",
+    "percent": 1,
+    "params": {
+      "MaxHP": 900
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 10,
+    "desc": "最大生命值+1000",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1000
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 11,
+    "desc": "最大生命值+1100",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1100
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 12,
+    "desc": "最大生命值+1200",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1200
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 13,
+    "desc": "最大生命值+1300",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1300
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 14,
+    "desc": "最大生命值+1400",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1400
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 15,
+    "desc": "最大生命值+1500",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1500
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 16,
+    "desc": "最大生命值+1600",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1600
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 17,
+    "desc": "最大生命值+1700",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1700
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 18,
+    "desc": "最大生命值+1800",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1800
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 19,
+    "desc": "最大生命值+1900",
+    "percent": 1,
+    "params": {
+      "MaxHP": 1900
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill063",
+    "name": "坚毅",
+    "type": 3,
+    "level": 20,
+    "desc": "最大生命值+2000",
+    "percent": 1,
+    "params": {
+      "MaxHP": 2000
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 1,
+    "desc": "命中+5",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 2,
+    "desc": "命中+10",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 3,
+    "desc": "命中+15",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 4,
+    "desc": "命中+20",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 5,
+    "desc": "命中+25",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 6,
+    "desc": "命中+30",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 7,
+    "desc": "命中+35",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 8,
+    "desc": "命中+40",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 9,
+    "desc": "命中+45",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill065",
+    "name": "精准",
+    "type": 3,
+    "level": 10,
+    "desc": "命中+50",
+    "percent": 1,
+    "params": {
+      "hitRateValue": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 1,
+    "desc": "护甲+5",
+    "percent": 1,
+    "params": {
+      "baseAr": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 2,
+    "desc": "护甲+10",
+    "percent": 1,
+    "params": {
+      "baseAr": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 3,
+    "desc": "护甲+15",
+    "percent": 1,
+    "params": {
+      "baseAr": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 4,
+    "desc": "护甲+20",
+    "percent": 1,
+    "params": {
+      "baseAr": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 5,
+    "desc": "护甲+25",
+    "percent": 1,
+    "params": {
+      "baseAr": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 6,
+    "desc": "护甲+30",
+    "percent": 1,
+    "params": {
+      "baseAr": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 7,
+    "desc": "护甲+35",
+    "percent": 1,
+    "params": {
+      "baseAr": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 8,
+    "desc": "护甲+40",
+    "percent": 1,
+    "params": {
+      "baseAr": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 9,
+    "desc": "护甲+45",
+    "percent": 1,
+    "params": {
+      "baseAr": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill067",
+    "name": "铁壁",
+    "type": 3,
+    "level": 10,
+    "desc": "护甲+50",
+    "percent": 1,
+    "params": {
+      "baseAr": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 1,
+    "desc": "法抗+5",
+    "percent": 1,
+    "params": {
+      "baseRes": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 2,
+    "desc": "法抗+10",
+    "percent": 1,
+    "params": {
+      "baseRes": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 3,
+    "desc": "法抗+15",
+    "percent": 1,
+    "params": {
+      "baseRes": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 4,
+    "desc": "法抗+20",
+    "percent": 1,
+    "params": {
+      "baseRes": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 5,
+    "desc": "法抗+25",
+    "percent": 1,
+    "params": {
+      "baseRes": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 6,
+    "desc": "法抗+30",
+    "percent": 1,
+    "params": {
+      "baseRes": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 7,
+    "desc": "法抗+35",
+    "percent": 1,
+    "params": {
+      "baseRes": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 8,
+    "desc": "法抗+40",
+    "percent": 1,
+    "params": {
+      "baseRes": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 9,
+    "desc": "法抗+45",
+    "percent": 1,
+    "params": {
+      "baseRes": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill068",
+    "name": "灵体",
+    "type": 3,
+    "level": 9,
+    "desc": "法抗+50",
+    "percent": 1,
+    "params": {
+      "baseRes": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 1,
+    "desc": "法术穿透+5",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 2,
+    "desc": "法术穿透+10",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 3,
+    "desc": "法术穿透+15",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 4,
+    "desc": "法术穿透+20",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 5,
+    "desc": "法术穿透+25",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 6,
+    "desc": "法术穿透+30",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 7,
+    "desc": "法术穿透+35",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 8,
+    "desc": "法术穿透+40",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 9,
+    "desc": "法术穿透+45",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill071",
+    "name": "元素易伤",
+    "type": 3,
+    "level": 10,
+    "desc": "法术穿透+50",
+    "percent": 1,
+    "params": {
+      "baseSRPV": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 1,
+    "desc": "法强+10",
+    "percent": 1,
+    "params": {
+      "power": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 2,
+    "desc": "法强+20",
+    "percent": 1,
+    "params": {
+      "power": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 3,
+    "desc": "法强+30",
+    "percent": 1,
+    "params": {
+      "power": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 4,
+    "desc": "法强+40",
+    "percent": 1,
+    "params": {
+      "power": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 5,
+    "desc": "法强+50",
+    "percent": 1,
+    "params": {
+      "power": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 6,
+    "desc": "法强+60",
+    "percent": 1,
+    "params": {
+      "power": 60
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 7,
+    "desc": "法强+70",
+    "percent": 1,
+    "params": {
+      "power": 70
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 8,
+    "desc": "法强+80",
+    "percent": 1,
+    "params": {
+      "power": 80
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 9,
+    "desc": "法强+90",
+    "percent": 1,
+    "params": {
+      "power": 90
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 10,
+    "desc": "法强+100",
+    "percent": 1,
+    "params": {
+      "power": 100
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 11,
+    "desc": "法强+110",
+    "percent": 1,
+    "params": {
+      "power": 110
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 12,
+    "desc": "法强+120",
+    "percent": 1,
+    "params": {
+      "power": 120
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 13,
+    "desc": "法强+130",
+    "percent": 1,
+    "params": {
+      "power": 130
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 14,
+    "desc": "法强+140",
+    "percent": 1,
+    "params": {
+      "power": 140
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 15,
+    "desc": "法强+150",
+    "percent": 1,
+    "params": {
+      "power": 150
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 16,
+    "desc": "法强+160",
+    "percent": 1,
+    "params": {
+      "power": 160
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 17,
+    "desc": "法强+170",
+    "percent": 1,
+    "params": {
+      "power": 170
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 18,
+    "desc": "法强+180",
+    "percent": 1,
+    "params": {
+      "power": 180
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 19,
+    "desc": "法强+190",
+    "percent": 1,
+    "params": {
+      "power": 190
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill072",
+    "name": "魔力增幅",
+    "type": 3,
+    "level": 20,
+    "desc": "法强+200",
+    "percent": 1,
+    "params": {
+      "power": 200
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 1,
+    "desc": "闪避+5",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 5
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 2,
+    "desc": "闪避+10",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 10
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 3,
+    "desc": "闪避+15",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 4,
+    "desc": "闪避+20",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 20
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 5,
+    "desc": "闪避+25",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 25
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 6,
+    "desc": "闪避+30",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 30
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 7,
+    "desc": "闪避+35",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 35
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 8,
+    "desc": "闪避+40",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 40
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 9,
+    "desc": "闪避+45",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 45
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill076",
+    "name": "灵巧",
+    "type": 3,
+    "level": 10,
+    "desc": "闪避+50",
+    "percent": 1,
+    "params": {
+      "dodgeRateValue": 50
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 1,
+    "desc": "基础血量上限增加2%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.02
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 2,
+    "desc": "基础血量上限增加4%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.04
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 3,
+    "desc": "基础血量上限增加6%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.06
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 4,
+    "desc": "基础血量上限增加8%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.08
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 5,
+    "desc": "基础血量上限增加10%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.1
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 6,
+    "desc": "基础血量上限增加12%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.12
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 7,
+    "desc": "基础血量上限增加14%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.14
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 8,
+    "desc": "基础血量上限增加16%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.16
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 9,
+    "desc": "基础血量上限增加18%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.18
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 10,
+    "desc": "基础血量上限增加20%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.2
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 11,
+    "desc": "基础血量上限增加22%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.22
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 12,
+    "desc": "基础血量上限增加24%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.24
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 13,
+    "desc": "基础血量上限增加26%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.26
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 14,
+    "desc": "基础血量上限增加28%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.28
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 15,
+    "desc": "基础血量上限增加30%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.3
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 16,
+    "desc": "基础血量上限增加32%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.32
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 17,
+    "desc": "基础血量上限增加34%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.34
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 18,
+    "desc": "基础血量上限增加36%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.36
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 19,
+    "desc": "基础血量上限增加38%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.38
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill102",
+    "name": "刚毅不屈",
+    "type": 3,
+    "level": 20,
+    "desc": "基础血量上限增加40%。",
+    "percent": 1,
+    "params": {
+      "baseHP": 0.4
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 1,
+    "desc": "基础物攻增加1%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.01
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 2,
+    "desc": "基础物攻增加2%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.02
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 3,
+    "desc": "基础物攻增加3%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.03
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 4,
+    "desc": "基础物攻增加4%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.04
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 5,
+    "desc": "基础物攻增加5%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.05
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 6,
+    "desc": "基础物攻增加6%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.06
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 7,
+    "desc": "基础物攻增加7%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.07
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 8,
+    "desc": "基础物攻增加8%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.08
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 9,
+    "desc": "基础物攻增加9%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.09
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 10,
+    "desc": "基础物攻增加10%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.1
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 11,
+    "desc": "基础物攻增加11%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.11
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 12,
+    "desc": "基础物攻增加12%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.12
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 13,
+    "desc": "基础物攻增加13%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.13
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 14,
+    "desc": "基础物攻增加14%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.14
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 15,
+    "desc": "基础物攻增加15%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 16,
+    "desc": "基础物攻增加16%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.16
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 17,
+    "desc": "基础物攻增加17%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.17
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 18,
+    "desc": "基础物攻增加18%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.18
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 19,
+    "desc": "基础物攻增加19%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.19
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill103",
+    "name": "利刃",
+    "type": 3,
+    "level": 20,
+    "desc": "基础物攻增加20%。",
+    "percent": 1,
+    "params": {
+      "baseAtk": 0.2
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 1,
+    "desc": "基础法强增加1%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.01
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 2,
+    "desc": "基础法强增加2%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.02
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 3,
+    "desc": "基础法强增加3%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.03
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 4,
+    "desc": "基础法强增加4%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.04
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 5,
+    "desc": "基础法强增加5%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.05
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 6,
+    "desc": "基础法强增加6%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.06
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 7,
+    "desc": "基础法强增加7%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.07
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 8,
+    "desc": "基础法强增加8%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.08
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 9,
+    "desc": "基础法强增加9%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.09
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 10,
+    "desc": "基础法强增加10%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.1
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 11,
+    "desc": "基础法强增加11%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.11
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 12,
+    "desc": "基础法强增加12%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.12
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 13,
+    "desc": "基础法强增加13%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.13
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 14,
+    "desc": "基础法强增加14%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.14
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 15,
+    "desc": "基础法强增加15%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.15
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 16,
+    "desc": "基础法强增加16%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.16
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 17,
+    "desc": "基础法强增加17%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.17
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 18,
+    "desc": "基础法强增加18%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.18
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 19,
+    "desc": "基础法强增加19%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.19
+    },
+    "passiveSkillType": 1
+  },
+  {
+    "id": "skill104",
+    "name": "通灵",
+    "type": 3,
+    "level": 20,
+    "desc": "基础法强增加20%。",
+    "percent": 1,
+    "params": {
+      "basePower": 0.2
+    },
+    "passiveSkillType": 1
+  }
+]

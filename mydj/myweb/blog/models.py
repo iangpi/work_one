@@ -7,4 +7,7 @@ class Blog(models.Model):
     body=models.TextField()
     timestamp=models.DateTimeField()
 
-class BlogAdmin(admin.):
+class BlogAdmin(admin.ModelAdmin):
+    list_display = ('title','timestamp')
+
+admin.site.register(Blog,BlogAdmin)
