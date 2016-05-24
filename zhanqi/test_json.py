@@ -1,4 +1,5 @@
 #coding:utf-8
+import time
 '''
 import json
 s = json.loads('{"name":"test", "type":{"name":"seq", "parameter":["1", "2"]}}')
@@ -24,6 +25,8 @@ for a in xrange(11,20,2):
     print b
 '''
 
+'''
+print time.ctime()
 def a():
     for n in xrange(10):
         if n==9:
@@ -31,3 +34,11 @@ def a():
     return a
 if __name__=="__main__":
     a()
+    print time.ctime()
+'''
+
+
+a='123'
+b='1'
+assert b in a
+assert a in b
