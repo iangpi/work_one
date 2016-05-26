@@ -5,5 +5,13 @@ def Twenty(n=1):
         n=n+1
 Twenty()
 '''
+'''
 for i in xrange(20):
     print i
+
+'''
+
+while 1==1:
+    print 1
+else:
+    print 2

@@ -36,9 +36,12 @@ if __name__=="__main__":
     a()
     print time.ctime()
 '''
-
+'''
+还能这样断言的
 
 a='123'
 b='1'
-assert b in a
-assert a in b
+c='6'
+assert (b in a) and (c in a)
+assert (b in a) or (c in a)
+'''

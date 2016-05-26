@@ -30,9 +30,7 @@ class AppCenterTest(My_setup_teardown):
         hope_text='个人信息'
         time.sleep(1)
         self.assertEqual(get_text,hope_text,'get != hope')
-if __name__=="__main__":
-    unittest.main()
-'''
+
     def test_002_edit_pw(self):
         """测试不输入任何东西，修改密码"""
         self..open_browser(base_url['编辑密码url'])
@@ -105,4 +103,3 @@ if __name__=="__main__":
         self.assertEqual(get_text,hope_text)
 if __name__=="__main__":
     unittest.main()
-'''
