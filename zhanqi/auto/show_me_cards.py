@@ -25,12 +25,14 @@ print monster_cards
 
 #用户名字和想要卡牌数量参数化
 test_address=r"http://tactics.xingyunzhi.cn/staging/admin.html"
-need_nums=100
+need_nums=1000
 
-nick_name='Houlin'
+
+#nick_name='Houlin'
 #nick_name=u'奇怪的选手'
 #nick_name=u'不大不小超'
 #nick_name=u'葫芦娃二娃'
+nick_name='shunia'#包子
 
 #dr=webdriver.Firefox()
 #无界面浏览器
@@ -42,7 +44,7 @@ time.sleep(1)
 #查找用户
 dr.find_element_by_id('nick_name').send_keys(nick_name)
 dr.find_element_by_xpath('html/body/p[4]/input').click()
-time.sleep(0.5)
+time.sleep(1)
 dr.find_element_by_id('coin').clear()
 dr.find_element_by_id('coin').send_keys('100000')
 dr.find_element_by_id('cash').clear()

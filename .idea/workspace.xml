@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4b0b05-d64b-448d-8a71-2e36f5899cf3" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\mygit\work_one\zhanqi\monster.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/auto/ghostdriver.log" afterPath="$PROJECT_DIR$/zhanqi/auto/ghostdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/readskills_v2.py" afterPath="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" afterPath="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytest/test0005.py" afterPath="$PROJECT_DIR$/mytest/test0005.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pp_management_platform/v_4/app_center/test_center.py" afterPath="$PROJECT_DIR$/pp_management_platform/v_4/app_center/test_center.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/test_json.py" afterPath="$PROJECT_DIR$/zhanqi/test_json.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,7 +37,7 @@
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_005.coverage" NAME="Unittest AppCenterTest.test_edit_pw_005 Coverage Results" MODIFIED="1461054545788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$RunTestCase__1_.coverage" NAME="RunTestCase (1) Coverage Results" MODIFIED="1461220300134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_001_edit_pw.coverage" NAME="Unittest AppCenterTest.test_001_edit_pw Coverage Results" MODIFIED="1462265806937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
-    <SUITE FILE_PATH="coverage/work_one$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1464249689779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
+    <SUITE FILE_PATH="coverage/work_one$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1464320423534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
     <SUITE FILE_PATH="coverage/work_one$DD_Data.coverage" NAME="DD_Data Coverage Results" MODIFIED="1461834174541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_base" />
     <SUITE FILE_PATH="coverage/work_one$mytest001.coverage" NAME="mytest001 Coverage Results" MODIFIED="1460616081160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/for_diner" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_My_setup_teardown_test_mypass.coverage" NAME="Unittest My_setup_teardown.test_mypass Coverage Results" MODIFIED="1462269959342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_4/base" />
@@ -95,7 +91,7 @@
     <SUITE FILE_PATH="coverage/work_one$Up_Base.coverage" NAME="Up_Base Coverage Results" MODIFIED="1462790947690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/uplive/up_base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_on_page_edit_password.coverage" NAME="Unittest AppCenterTest.test_on_page_edit_password Coverage Results" MODIFIED="1460948743848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$all_elements.coverage" NAME="all_elements Coverage Results" MODIFIED="1461753311768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
-    <SUITE FILE_PATH="coverage/work_one$show_me_cards.coverage" NAME="show_me_cards Coverage Results" MODIFIED="1464257912192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
+    <SUITE FILE_PATH="coverage/work_one$show_me_cards.coverage" NAME="show_me_cards Coverage Results" MODIFIED="1464337721253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__1_.coverage" NAME="Unittests in AppCenterTest (1) Coverage Results" MODIFIED="1460976387553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_Myunittest.coverage" NAME="Unittests in Myunittest Coverage Results" MODIFIED="1462262885592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$install_apk_to_redmi1s.coverage" NAME="install_apk_to_redmi1s Coverage Results" MODIFIED="1462933496463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
@@ -116,28 +112,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show_me_cards.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.4080267">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-              <folding>
-                <element signature="e#14#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_json.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zhanqi/test_json.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="readskills_v2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,6 +119,18 @@
               <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_me_cards.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43143812">
+              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,9 +198,9 @@
         <option value="$PROJECT_DIR$/mytest/install_app.py" />
         <option value="$PROJECT_DIR$/zhanqi/readskills.py" />
         <option value="$PROJECT_DIR$/mytest/test0005.py" />
-        <option value="$PROJECT_DIR$/zhanqi/test_json.py" />
         <option value="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
         <option value="$PROJECT_DIR$/pp_management_platform/v_4/app_center/test_center.py" />
+        <option value="$PROJECT_DIR$/zhanqi/test_json.py" />
         <option value="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
       </list>
     </option>
@@ -254,6 +240,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,7 +307,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -665,8 +651,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.show_me_cards" />
-        <item index="1" class="java.lang.String" itemvalue="Python.readskills_v2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_json" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_json" />
+        <item index="2" class="java.lang.String" itemvalue="Python.readskills_v2" />
         <item index="3" class="java.lang.String" itemvalue="Python.test0005" />
         <item index="4" class="java.lang.String" itemvalue="Python.readskills" />
       </list>
@@ -1047,7 +1033,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.67193675">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/myjson/monster.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="166.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_4/app_center/test_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50167227">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_4/app_center/RunTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1061,42 +1067,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/myjson/monster.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="166.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_4/app_center/test_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50167227">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_4/app_center/RunTestCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhanqi/test_json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.4080267">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.43143812">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
           </folding>
