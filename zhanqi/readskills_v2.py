@@ -2,12 +2,15 @@
 import os
 import json
 import time
+import sys
+import xlwt
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+
 path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
 path_skill=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\skill.json")
 path_unlockSkill=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
-
-
-
 
 class hero_card(object):
     def __init__(self):
@@ -27,14 +30,44 @@ class hero_card(object):
         self.read_unlock_skill=json.load(self.unlock_skill_file)
         self.unlock_skill_num=len(self.read_unlock_skill)
 
-    def get_monsters_by_id(self):
-        #建立2个空表,遍历之后，用来存玩家和怪物卡牌的id
         self.user_cards=[]
-        self.monster_cards=[]
         for n in xrange(self.monster_num):
             if self.read_monster[n]['collectable']==1:
                 self.user_cards.append(self.read_monster[n]['id'])
-        return 'user card',self.user_cards
+        self.res1=sorted(self.user_cards)
+
+        self.monster_cards=[]
+        for n in xrange(self.monster_num):
+            if self.read_monster[n]['collectable']==0:
+                self.monster_cards.append(self.read_monster[n]['id'])
+        self.res2=sorted(self.monster_cards)
+
+    # def get_usercadrs(self):
+    #     #建立空表,遍历之后，用来存玩家和怪物卡牌的id
+    #     self.user_cards=[]
+    #     for n in xrange(self.monster_num):
+    #         if self.read_monster[n]['collectable']==1:
+    #             self.user_cards.append(self.read_monster[n]['id'])
+    #     return sorted(self.user_cards)
+    #
+    # def get_monstercasds(self):
+    #     self.monster_cards=[]
+    #     for n in xrange(self.monster_num):
+    #         if self.read_monster[n]['collectable']==0:
+    #             self.monster_cards.append(self.read_monster[n]['id'])
+    #     return sorted(self.monster_cards)
+
+    def get_card_info(self):
+        for n in xrange(self.monster_num):
+            card_info=self.read_monster[n]
+            book=xlwt.Workbook(encoding='utf-8',style_compression=0)
+            for m in xrange(len(self.res1)):
+                sheet=book.add_sheet(self.res1[m],cell_overwrite_ok=True)
+                sheet.write(0,0,'id')
+                sheet.write(1,0,'name')
+                sheet.write(0,1,card_info['id'])
+                sheet.write(1,1,card_info['name'])
+            book.save(r'd:\first.xls')
 if __name__=="__main__":
     test01=hero_card()
-    test01.get_monsters_by_id()
+    test01.get_card_info()

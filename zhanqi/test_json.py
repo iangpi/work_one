@@ -1,5 +1,7 @@
 #coding:utf-8
 import time
+import json
+import os
 '''
 import json
 s = json.loads('{"name":"test", "type":{"name":"seq", "parameter":["1", "2"]}}')
@@ -45,3 +47,26 @@ c='6'
 assert (b in a) and (c in a)
 assert (b in a) or (c in a)
 '''
+
+'''读取json后，不能显示中文的解决方案，但是结果是unicode
+path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
+monster_file=file(path_monster)
+read_monster=json.load(monster_file)
+print read_monster[0]
+print type(read_monster[0])
+
+
+path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
+monster_file=file(path_monster)
+read_monster=json.loads(monster_file.read())
+read_monster_again=json.dumps(read_monster,ensure_ascii=False)
+
+print read_monster_again[0]
+print type(read_monster_again[0])
+'''
+def w():
+    l=[1,2,3]
+    for n in xrange(len(l)):
+        res=l[n]
+    return res
+print w()
