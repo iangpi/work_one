@@ -48,7 +48,8 @@ assert (b in a) and (c in a)
 assert (b in a) or (c in a)
 '''
 
-'''读取json后，不能显示中文的解决方案，但是结果是unicode
+'''
+#读取json后，不能显示中文的解决方案，但是结果是unicode
 path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
 monster_file=file(path_monster)
 read_monster=json.load(monster_file)
@@ -63,6 +64,9 @@ read_monster_again=json.dumps(read_monster,ensure_ascii=False)
 
 print read_monster_again[0]
 print type(read_monster_again[0])
+
+'''
+
 '''
 def w():
     l=[1,2,3]
@@ -70,3 +74,18 @@ def w():
         res=l[n]
     return res
 print w()
+'''
+
+#coding:utf-8
+import os
+import json
+import time
+import sys
+import xlwt
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
+monster_file=file(path_monster)
+read_monster=json.load(monster_file)
+print read_monster[0]

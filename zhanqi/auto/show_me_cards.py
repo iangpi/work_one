@@ -24,15 +24,15 @@ print user_cards
 print monster_cards
 
 #用户名字和想要卡牌数量参数化
-test_address=r"http://tactics.xingyunzhi.cn/staging/admin.html"
+test_address=r"http://tactics.xingyunzhi.cn/delta/admin.html"
 need_nums=1000
 
 
 #nick_name='Houlin'
 #nick_name=u'奇怪的选手'
 #nick_name=u'不大不小超'
-#nick_name=u'葫芦娃二娃'
-nick_name='shunia'#包子
+nick_name=u'葫芦娃二娃'
+#nick_name='shunia'#包子
 
 #dr=webdriver.Firefox()
 #无界面浏览器
@@ -42,8 +42,10 @@ dr.get(test_address)
 time.sleep(1)
 
 #查找用户
+dr.find_element_by_id('server_id').clear()
+dr.find_element_by_id('server_id').send_keys('7001')
 dr.find_element_by_id('nick_name').send_keys(nick_name)
-dr.find_element_by_xpath('html/body/p[4]/input').click()
+dr.find_element_by_xpath(".//*[@id='query_user']/p[5]/input").click()
 time.sleep(1)
 dr.find_element_by_id('coin').clear()
 dr.find_element_by_id('coin').send_keys('100000')
