@@ -75,7 +75,7 @@ def w():
     return res
 print w()
 '''
-
+'''
 #coding:utf-8
 import os
 import json
@@ -89,3 +89,9 @@ path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
 monster_file=file(path_monster)
 read_monster=json.load(monster_file)
 print read_monster[0]
+'''
+
+
+a=[2,8,3]
+a.sort()
+print a

@@ -25,7 +25,9 @@ print monster_cards
 
 #用户名字和想要卡牌数量参数化
 test_address=r"http://tactics.xingyunzhi.cn/delta/admin.html"
-need_nums=1000
+card_nums=10
+coin_nums=1000000
+cash_nums=1000000
 
 
 #nick_name='Houlin'
@@ -48,15 +50,15 @@ dr.find_element_by_id('nick_name').send_keys(nick_name)
 dr.find_element_by_xpath(".//*[@id='query_user']/p[5]/input").click()
 time.sleep(1)
 dr.find_element_by_id('coin').clear()
-dr.find_element_by_id('coin').send_keys('100000')
+dr.find_element_by_id('coin').send_keys(coin_nums)
 dr.find_element_by_id('cash').clear()
-dr.find_element_by_id('cash').send_keys('100000')
+dr.find_element_by_id('cash').send_keys(cash_nums)
 dr.find_element_by_xpath(".//*[@id='features']/p[4]/input[3]").click()
 
 #遍历玩家卡牌表，挨个添加
 for num in xrange(len(user_cards)):
     dr.find_element_by_xpath(".//*[@id='unit_id']").send_keys(user_cards[num])
-    dr.find_element_by_xpath(".//*[@id='unit_count']").send_keys(need_nums)
+    dr.find_element_by_xpath(".//*[@id='unit_count']").send_keys(card_nums)
     dr.find_element_by_xpath(".//*[@id='features']/p[6]/input[3]").click()
     time.sleep(0.5)
     #断言一下，发送卡牌失败报错，断言发送失败的文字
@@ -69,7 +71,7 @@ for num in xrange(len(user_cards)):
         print 'send cards failed'
     else:
         pass
-        print user_cards[num],'has added',need_nums
+        print user_cards[num],'has added',card_nums
     time.sleep(0.5)
     dr.find_element_by_id('unit_id').clear()
     dr.find_element_by_xpath(".//*[@id='unit_count']").clear()

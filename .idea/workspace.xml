@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4b0b05-d64b-448d-8a71-2e36f5899cf3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhanqi/auto/delete_user.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/auto/ghostdriver.log" afterPath="$PROJECT_DIR$/zhanqi/auto/ghostdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/readskills_v3.py" afterPath="$PROJECT_DIR$/zhanqi/readskills_v3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/readskills_v2.py" afterPath="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" afterPath="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytest/test0005.py" afterPath="$PROJECT_DIR$/mytest/test0005.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/test_json.py" afterPath="$PROJECT_DIR$/zhanqi/test_json.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -35,11 +35,12 @@
     <SUITE FILE_PATH="coverage/work_one$testapp005.coverage" NAME="testapp005 Coverage Results" MODIFIED="1462879097400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_login01.coverage" NAME="Unittests in login01 Coverage Results" MODIFIED="1459234941502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_test_login01__1_.coverage" NAME="Unittests in test_login01 (1) Coverage Results" MODIFIED="1459236519497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_server_testcase/testlogin" />
+    <SUITE FILE_PATH="coverage/work_one$readskills_v4.coverage" NAME="readskills_v4 Coverage Results" MODIFIED="1464776159635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_MyUnit.coverage" NAME="Unittests in MyUnit Coverage Results" MODIFIED="1462270000675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_4/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_005.coverage" NAME="Unittest AppCenterTest.test_edit_pw_005 Coverage Results" MODIFIED="1461054545788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$RunTestCase__1_.coverage" NAME="RunTestCase (1) Coverage Results" MODIFIED="1461220300134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_001_edit_pw.coverage" NAME="Unittest AppCenterTest.test_001_edit_pw Coverage Results" MODIFIED="1462265806937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/app_center" />
-    <SUITE FILE_PATH="coverage/work_one$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1464688797763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
+    <SUITE FILE_PATH="coverage/work_one$test_json.coverage" NAME="test_json Coverage Results" MODIFIED="1464774003683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
     <SUITE FILE_PATH="coverage/work_one$DD_Data.coverage" NAME="DD_Data Coverage Results" MODIFIED="1461834174541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_base" />
     <SUITE FILE_PATH="coverage/work_one$mytest001.coverage" NAME="mytest001 Coverage Results" MODIFIED="1460616081160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/for_diner" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_My_setup_teardown_test_mypass.coverage" NAME="Unittest My_setup_teardown.test_mypass Coverage Results" MODIFIED="1462269959342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_4/base" />
@@ -64,7 +65,9 @@
     <SUITE FILE_PATH="coverage/work_one$install_app.coverage" NAME="install_app Coverage Results" MODIFIED="1463568169324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
     <SUITE FILE_PATH="coverage/work_one$BaseFun.coverage" NAME="BaseFun Coverage Results" MODIFIED="1460009111800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_003.coverage" NAME="Unittest AppCenterTest.test_edit_pw_003 Coverage Results" MODIFIED="1461053576359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
-    <SUITE FILE_PATH="coverage/work_one$readskills_v2.coverage" NAME="readskills_v2 Coverage Results" MODIFIED="1464601270397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
+    <SUITE FILE_PATH="coverage/work_one$test0006.coverage" NAME="test0006 Coverage Results" MODIFIED="1464764447125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
+    <SUITE FILE_PATH="coverage/work_one$readskills_v2.coverage" NAME="readskills_v2 Coverage Results" MODIFIED="1464764478198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
+    <SUITE FILE_PATH="coverage/work_one$delete_user.coverage" NAME="delete_user Coverage Results" MODIFIED="1464750823715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
     <SUITE FILE_PATH="coverage/work_one$MyUnit.coverage" NAME="MyUnit Coverage Results" MODIFIED="1462262640616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$MyBase_v1.coverage" NAME="MyBase_v1 Coverage Results" MODIFIED="1460971116830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$api0001.coverage" NAME="api0001 Coverage Results" MODIFIED="1461561719018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
@@ -95,7 +98,7 @@
     <SUITE FILE_PATH="coverage/work_one$Up_Base.coverage" NAME="Up_Base Coverage Results" MODIFIED="1462790947690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/uplive/up_base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_on_page_edit_password.coverage" NAME="Unittest AppCenterTest.test_on_page_edit_password Coverage Results" MODIFIED="1460948743848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$all_elements.coverage" NAME="all_elements Coverage Results" MODIFIED="1461753311768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
-    <SUITE FILE_PATH="coverage/work_one$show_me_cards.coverage" NAME="show_me_cards Coverage Results" MODIFIED="1464674916806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
+    <SUITE FILE_PATH="coverage/work_one$show_me_cards.coverage" NAME="show_me_cards Coverage Results" MODIFIED="1464752075437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__1_.coverage" NAME="Unittests in AppCenterTest (1) Coverage Results" MODIFIED="1460976387553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_Myunittest.coverage" NAME="Unittests in Myunittest Coverage Results" MODIFIED="1462262885592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$install_apk_to_redmi1s.coverage" NAME="install_apk_to_redmi1s Coverage Results" MODIFIED="1462933496463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
@@ -115,7 +118,28 @@
     <favorites_list name="work_one" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="monster.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhanqi/myjson/monster.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.0">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readskills_v4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.79695433">
+              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,9 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/for_diner(work block by js)/canshu.py" />
-        <option value="$PROJECT_DIR$/pp_management_platform/v_3/mytest/test0001.py" />
-        <option value="$PROJECT_DIR$/pp_management_platform/v_3/mytest/test0002.py" />
         <option value="$PROJECT_DIR$/pp_management_platform/v_3/mytest/test0001.txt" />
         <option value="$PROJECT_DIR$/api_test/api0001.py" />
         <option value="$PROJECT_DIR$/api_test/lin.txt" />
@@ -176,11 +197,14 @@
         <option value="$PROJECT_DIR$/zhanqi/readskills.py" />
         <option value="$PROJECT_DIR$/pp_management_platform/v_4/app_center/test_center.py" />
         <option value="$PROJECT_DIR$/zhanqi/write_to_excel.py" />
-        <option value="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
-        <option value="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
         <option value="$PROJECT_DIR$/mytest/test0005.py" />
-        <option value="$PROJECT_DIR$/zhanqi/test_json.py" />
         <option value="$PROJECT_DIR$/zhanqi/readskills_v3.py" />
+        <option value="$PROJECT_DIR$/zhanqi/auto/delete_user.py" />
+        <option value="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
+        <option value="$PROJECT_DIR$/mytest/test0006.py" />
+        <option value="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
+        <option value="$PROJECT_DIR$/zhanqi/test_json.py" />
+        <option value="$PROJECT_DIR$/zhanqi/readskills_v4.py" />
       </list>
     </option>
   </component>
@@ -220,6 +244,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,10 +295,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work_one" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +328,7 @@
       <recent name="D:\mygit\work_one\v_two\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.readskills_v3">
+  <component name="RunManager" selected="Python.readskills_v4">
     <configuration default="false" name="show_me_cards" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,6 +347,42 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="readskills_v4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhanqi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="work_one" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhanqi/readskills_v4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test0006" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="work_one" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mytest/test0006.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="readskills_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,42 +397,6 @@
       <module name="work_one" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="readskills_v3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zhanqi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="work_one" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zhanqi/readskills_v3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test0005" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mytest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="work_one" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mytest/test0005.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -609,18 +647,18 @@
       <item index="0" class="java.lang.String" itemvalue="Python.testapp003" />
       <item index="1" class="java.lang.String" itemvalue="Python.test0002" />
       <item index="2" class="java.lang.String" itemvalue="Python.show_me_cards" />
-      <item index="3" class="java.lang.String" itemvalue="Python.readskills_v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.readskills_v3" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test0005" />
+      <item index="3" class="java.lang.String" itemvalue="Python.readskills_v4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test0006" />
+      <item index="5" class="java.lang.String" itemvalue="Python.readskills_v2" />
       <item index="6" class="java.lang.String" itemvalue="Python.test_json" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.readskills_v3" />
+        <item index="0" class="java.lang.String" itemvalue="Python.readskills_v4" />
         <item index="1" class="java.lang.String" itemvalue="Python.test_json" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test0005" />
-        <item index="3" class="java.lang.String" itemvalue="Python.show_me_cards" />
-        <item index="4" class="java.lang.String" itemvalue="Python.readskills_v2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.readskills_v2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test0006" />
+        <item index="4" class="java.lang.String" itemvalue="Python.show_me_cards" />
       </list>
     </recent_temporary>
   </component>
@@ -639,9 +677,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -687,34 +725,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/base/MyBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09104938">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_4/app_center/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_2/app_center/test_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30246913">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="26" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pp_management_platform/v_3/app_center/test_center.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4349776">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68191266">
@@ -992,25 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5752961">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0304568">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#14#23#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,17 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84094757">
           <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/test_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,17 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.87986463">
           <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/myjson/monster.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17825311">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,9 +1023,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30456853">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53637904">
+          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/auto/delete_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13536379">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/test0006.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35523978">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/test_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
           <folding>
             <element signature="e#14#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5939086">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0676819">
+          <caret line="73" column="46" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/myjson/monster.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79695433">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

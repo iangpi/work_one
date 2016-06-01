@@ -42,20 +42,6 @@ class hero_card(object):
                 self.monster_cards.append(self.read_monster[n]['id'])
         self.res2=sorted(self.monster_cards)
 
-    # def get_usercadrs(self):
-    #     #建立空表,遍历之后，用来存玩家和怪物卡牌的id
-    #     self.user_cards=[]
-    #     for n in xrange(self.monster_num):
-    #         if self.read_monster[n]['collectable']==1:
-    #             self.user_cards.append(self.read_monster[n]['id'])
-    #     return sorted(self.user_cards)
-    #
-    # def get_monstercasds(self):
-    #     self.monster_cards=[]
-    #     for n in xrange(self.monster_num):
-    #         if self.read_monster[n]['collectable']==0:
-    #             self.monster_cards.append(self.read_monster[n]['id'])
-    #     return sorted(self.monster_cards)
 
     def get_card_info(self):
         for n in xrange(self.monster_num):
