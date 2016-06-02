@@ -9,18 +9,28 @@ sys.setdefaultencoding('utf8')
 
 path_monster=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
 path_skill=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\skill.json")
-path_unlockSkill=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\monster.json")
+path_unlockSkill=os.path.abspath(r"D:\mygit\work_one\zhanqi\myjson\unlockSkill.json")
 
 class hero_card(object):
     def __init__(self):
         #读怪物json
-        self.monster_file=file(path_monster)
-        self.read_monster=json.load(self.monster_file)
+        monster_file=file(path_monster)
+        self.read_monster=json.load(monster_file)
         self.monster_num=len(self.read_monster)
         #print ('怪物总数:'),self.monster_num
 
+        #读技能json
+        skill_file=file(path_skill)
+        self.read_skill=json.load(skill_file)
+        self.skill_num=(len(self.read_skill))
+
+        #读天赋json
+        unlock_skill_file=file(path_unlockSkill)
+        self.read_unlock_skill=json.load(unlock_skill_file)
+        self.unlock_skill_num=len(self.read_unlock_skill)
+
     def all_usercards(self):
-        #抽取出来玩家的卡牌，并数序排列
+        #抽取出来玩家的卡牌
         user_cards=[]
         for n in xrange(self.monster_num):
             if self.read_monster[n]['collectable']==1:
@@ -33,7 +43,7 @@ class hero_card(object):
             if self.read_monster[n]['collectable']==1:
                 cards_name.append(self.read_monster[n]['name'])
         return cards_name
-
+        #抽取玩家卡牌id，
     def all_usercards_id(self):
         cards_id=[]
         for n in xrange(self.monster_num):
@@ -41,8 +51,15 @@ class hero_card(object):
                 cards_id.append(self.read_monster[n]['id'])
         return cards_id
 
+    def all_usercards_skill(self):
+        cards_skill=[]
+        for n in xrange(self.unlock_skill_num):
+            if self.read_unlock_skill[n]['id'] in hero_card().all_usercards_id():
+                    cards_skill.append(self.read_unlock_skill[n])
+        return cards_skill
+
     def all_monstercards(self):
-        #抽取出来怪物的卡牌，并顺序排列
+        #抽取出来怪物的卡牌，
         monster_cards=[]
         for n in xrange(self.monster_num):
             if self.read_monster[n]['collectable']==0:
@@ -67,35 +84,14 @@ class hero_card(object):
         for n in xrange(len(fun1)):#直接实例化自己类里的方法直接用
             sheet_name=str(fun1[n])
             sheet=book.add_sheet(sheet_name,cell_overwrite_ok=True)
-            sheet.write(0,0,'id')
-            sheet.write(1,0,'名字')
-            sheet.write(2,0,'单位输出类型')
-            sheet.write(3,0,'单位子类型')
-            sheet.write(4,0,'卡牌类型')
-            sheet.write(5,0,'解锁等级')
-            sheet.write(6,0,'可收集')
-            sheet.write(7,0,'可移动')
-            sheet.write(8,0,'单位形象')
-            sheet.write(9,0,'单位描述')
-            sheet.write(10,0,'单位品质')
-            sheet.write(11,0,'单位尺寸')
-            sheet.write(12,0,'速度')
-
-            sheet.write(0,1,str(fun2[n]['id']))
-            sheet.write(1,1,str(fun2[n]['name']))
-            sheet.write(2,1,str(fun2[n]['type']))
-            sheet.write(3,1,str(fun2[n]['subType']))
-            sheet.write(4,1,str(fun2[n]['unitType']))
-            sheet.write(5,1,str(fun2[n]['unlockLevel']))
-            sheet.write(6,1,str(fun2[n]['collectable']))
-            sheet.write(7,1,str(fun2[n]['moveable']))
-            sheet.write(8,1,str(fun2[n]['avatarId']))
-            sheet.write(9,1,str(fun2[n]['desc']))
-            sheet.write(10,1,str(fun2[n]['quality']))
-            sheet.write(11,1,str(fun2[n]['size']))
-            sheet.write(12,1,str(fun2[n]['speed']))
+            row_1=['编号','名字','输出类型','子类型','卡牌类型','解锁等级','可收集否','可移动否','形象','描述','品质','尺寸','速度']
+            row_2=['id','name','type','subType','unitType','unlockLevel','collectable','moveable','avatarId','desc','quality','size','speed']
+            num=len(row_1)
+            for m in xrange(num):
+                sheet.write(m,0,row_1[m])
+                sheet.write(m,1,str(fun2[n][row_2[m]]))
         #保存表格
-        book.save(r'd:\first.xls')
+        book.save(r'D:\mygit\work_one\zhanqi\report\user_cards.xls')
 
 if __name__=="__main__":
     test01=hero_card()
@@ -104,3 +100,5 @@ if __name__=="__main__":
     # for n in xrange(len(test01.all_monstercards())):
     #     print 'npc卡牌：',test01.all_monstercards()[n]['name']
     test01.write_in_excel()
+    print test01.all_usercards_skill()
+    print len(test01.all_usercards_skill())
