@@ -38,7 +38,4 @@ for n in a:
 	l.append(n)
 print len(l)
 '''
-
-l=[1,2,3]
-for a in xrange(len(l)):
-	print l[a]
+print 2770/56
