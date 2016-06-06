@@ -20,11 +20,17 @@ for n in xrange(monsters_num):
         user_cards.append(search_monsters[n]['id'])
     else:
         monster_cards.append(search_monsters[n]['id'])
+user_cards.sort()
+monster_cards.sort()
 print user_cards
 print monster_cards
 
 #用户名字和想要卡牌数量参数化
-test_address=r"http://tactics.xingyunzhi.cn/delta/admin.html"
+myd={'7001_id':'7001',
+     '4001_id':'4001',
+     '7001_address':'http://tactics.xingyunzhi.cn/delta/admin.html',
+     '4001_address':'http://tactics.xingyunzhi.cn/staging/admin.html'
+     }
 card_nums=5000
 coin_nums=999950
 cash_nums=1000000
@@ -38,12 +44,12 @@ nick_name=u'葫芦娃二娃'
 #无界面浏览器
 phantomjs_path=os.path.abspath(r"C:\Python27\phantomjs-2.1.1-windows\bin\phantomjs.exe")
 dr=webdriver.PhantomJS(phantomjs_path)
-dr.get(test_address)
+dr.get(myd[r'7001_address'])
 time.sleep(0.5)
 
 #查找用户
 dr.find_element_by_id('server_id').clear()
-dr.find_element_by_id('server_id').send_keys('7001')
+dr.find_element_by_id('server_id').send_keys(myd['7001_id'])
 dr.find_element_by_id('nick_name').send_keys(nick_name)
 dr.find_element_by_xpath(".//*[@id='query_user']/p[5]/input").click()
 time.sleep(1)
@@ -62,10 +68,29 @@ if len(get_res)<100:
     dr.find_element_by_xpath(".//*[@id='features']/p[4]/input[3]").click()
 else:
     print ('请确认当前游戏中有几个相同昵称的帐号')
-
+cards_list=['monster003',
+            'monster004',
+            'monster005',
+            'monster006',
+            'monster007',
+            'monster009',
+            'monster011',
+            'monster012',
+            'monster013',
+            'monster016',
+            'monster018',
+            'monster027',
+            'monster034',
+            'monster035',
+            'monster038',
+            'monster040',
+            'monster042',
+            'monster044',
+            'monster065'
+            ]
 #遍历玩家卡牌表，挨个添加
-for num in xrange(len(user_cards)):
-    dr.find_element_by_xpath(".//*[@id='unit_id']").send_keys(user_cards[num])
+for n in xrange(len(cards_list)):
+    dr.find_element_by_xpath(".//*[@id='unit_id']").send_keys(cards_list[n])
     dr.find_element_by_xpath(".//*[@id='unit_count']").send_keys(card_nums)
     dr.find_element_by_xpath(".//*[@id='features']/p[6]/input[3]").click()
     time.sleep(0.3)
@@ -79,7 +104,7 @@ for num in xrange(len(user_cards)):
         print 'send cards failed'
     else:
         pass
-        print user_cards[num],'has added',card_nums
+        print cards_list[n],'has added',card_nums
     time.sleep(0.5)
     dr.find_element_by_id('unit_id').clear()
     dr.find_element_by_xpath(".//*[@id='unit_count']").clear()
