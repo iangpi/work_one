@@ -40,10 +40,10 @@ cash_nums=1000000
 nick_name=u'葫芦娃二娃'
 #nick_name='shunia'#包子
 
-#dr=webdriver.Firefox()
+dr=webdriver.Firefox()
 #无界面浏览器
-phantomjs_path=os.path.abspath(r"C:\Python27\phantomjs-2.1.1-windows\bin\phantomjs.exe")
-dr=webdriver.PhantomJS(phantomjs_path)
+#phantomjs_path=os.path.abspath(r"C:\Python27\phantomjs-2.1.1-windows\bin\phantomjs.exe")
+#dr=webdriver.PhantomJS(phantomjs_path)
 dr.get(myd[r'7001_address'])
 time.sleep(0.5)
 

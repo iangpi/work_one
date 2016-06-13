@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4b0b05-d64b-448d-8a71-2e36f5899cf3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/report/user_cards.xls" afterPath="$PROJECT_DIR$/zhanqi/report/user_cards.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/auto/ghostdriver.log" afterPath="$PROJECT_DIR$/zhanqi/auto/ghostdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mytest/test0008.py" afterPath="$PROJECT_DIR$/mytest/test0008.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" afterPath="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="work_one.iws" />
@@ -70,7 +69,7 @@
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_edit_pw_003.coverage" NAME="Unittest AppCenterTest.test_edit_pw_003 Coverage Results" MODIFIED="1461053576359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_3/app_center" />
     <SUITE FILE_PATH="coverage/work_one$readskills_v2.coverage" NAME="readskills_v2 Coverage Results" MODIFIED="1464764478198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi" />
     <SUITE FILE_PATH="coverage/work_one$test0006.coverage" NAME="test0006 Coverage Results" MODIFIED="1464860102294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mytest" />
-    <SUITE FILE_PATH="coverage/work_one$delete_user.coverage" NAME="delete_user Coverage Results" MODIFIED="1465357271683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
+    <SUITE FILE_PATH="coverage/work_one$delete_user.coverage" NAME="delete_user Coverage Results" MODIFIED="1465805449228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
     <SUITE FILE_PATH="coverage/work_one$MyUnit.coverage" NAME="MyUnit Coverage Results" MODIFIED="1462262640616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$MyBase_v1.coverage" NAME="MyBase_v1 Coverage Results" MODIFIED="1460971116830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/base" />
     <SUITE FILE_PATH="coverage/work_one$api0001.coverage" NAME="api0001 Coverage Results" MODIFIED="1461561719018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api_test" />
@@ -101,7 +100,7 @@
     <SUITE FILE_PATH="coverage/work_one$Up_Base.coverage" NAME="Up_Base Coverage Results" MODIFIED="1462790947690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/uplive/up_base" />
     <SUITE FILE_PATH="coverage/work_one$Unittest_AppCenterTest_test_on_page_edit_password.coverage" NAME="Unittest AppCenterTest.test_on_page_edit_password Coverage Results" MODIFIED="1460948743848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$all_elements.coverage" NAME="all_elements Coverage Results" MODIFIED="1461753311768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work" />
-    <SUITE FILE_PATH="coverage/work_one$show_me_cards.coverage" NAME="show_me_cards Coverage Results" MODIFIED="1465352207069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
+    <SUITE FILE_PATH="coverage/work_one$show_me_cards.coverage" NAME="show_me_cards Coverage Results" MODIFIED="1465806273940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zhanqi/auto" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_AppCenterTest__1_.coverage" NAME="Unittests in AppCenterTest (1) Coverage Results" MODIFIED="1460976387553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/v_two/app_center" />
     <SUITE FILE_PATH="coverage/work_one$Unittests_in_Myunittest.coverage" NAME="Unittests in Myunittest Coverage Results" MODIFIED="1462262885592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pp_management_platform/v_3/base" />
     <SUITE FILE_PATH="coverage/work_one$install_apk_to_redmi1s.coverage" NAME="install_apk_to_redmi1s Coverage Results" MODIFIED="1462933496463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_appium_work/daidai/dd_test" />
@@ -125,7 +124,7 @@
       <file leaf-file-name="unlockSkill.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhanqi/myjson/unlockSkill.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding />
             </state>
@@ -135,18 +134,38 @@
       <file leaf-file-name="skill.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhanqi/myjson/skill.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.95">
+            <state vertical-scroll-proportion="0.0">
               <caret line="98" column="19" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readskills_v6.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readskills_v6.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5862069">
-              <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_me_cards.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7241379">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delete_user.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zhanqi/auto/delete_user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -212,7 +231,6 @@
         <option value="$PROJECT_DIR$/zhanqi/write_to_excel.py" />
         <option value="$PROJECT_DIR$/mytest/test0005.py" />
         <option value="$PROJECT_DIR$/zhanqi/readskills_v3.py" />
-        <option value="$PROJECT_DIR$/zhanqi/auto/delete_user.py" />
         <option value="$PROJECT_DIR$/zhanqi/readskills_v2.py" />
         <option value="$PROJECT_DIR$/zhanqi/test_json.py" />
         <option value="$PROJECT_DIR$/zhanqi/myjson/unlockSkill.json" />
@@ -223,11 +241,12 @@
         <option value="$PROJECT_DIR$/my_appium_work/daidai/dd_test/install_apk_to_redmi1s.py" />
         <option value="$PROJECT_DIR$/mytest/test0007.py" />
         <option value="$PROJECT_DIR$/mytest/selenium_tips/test0008.py" />
-        <option value="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
         <option value="$PROJECT_DIR$/zhanqi/myjson/monster.json" />
         <option value="$PROJECT_DIR$/zhanqi/readskills_v5..py" />
         <option value="$PROJECT_DIR$/mytest/test0008.py" />
         <option value="$PROJECT_DIR$/zhanqi/readskills_v6.py" />
+        <option value="$PROJECT_DIR$/zhanqi/auto/delete_user.py" />
+        <option value="$PROJECT_DIR$/zhanqi/auto/show_me_cards.py" />
       </list>
     </option>
   </component>
@@ -241,7 +260,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -267,6 +286,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -352,7 +372,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +388,7 @@
       <recent name="D:\mygit\work_one\v_two\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test0008 (1)">
+  <component name="RunManager" selected="Python.show_me_cards">
     <configuration default="false" name="readskills_v5." type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -695,10 +714,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test0008 (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.readskills_v6" />
-        <item index="2" class="java.lang.String" itemvalue="Python.delete_user" />
-        <item index="3" class="java.lang.String" itemvalue="Python.show_me_cards" />
+        <item index="0" class="java.lang.String" itemvalue="Python.show_me_cards" />
+        <item index="1" class="java.lang.String" itemvalue="Python.delete_user" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test0008 (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.readskills_v6" />
         <item index="4" class="java.lang.String" itemvalue="Python.readskills_v5." />
       </list>
     </recent_temporary>
@@ -717,10 +736,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.197065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -994,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53637904">
           <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,33 +1093,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3267974">
-          <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v5..py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6514161">
           <caret line="124" column="37" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zhanqi/auto/delete_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zhanqi/myjson/unlockSkill.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
@@ -1109,7 +1110,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhanqi/myjson/skill.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.95">
+        <state vertical-scroll-proportion="0.0">
           <caret line="98" column="19" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="19" />
           <folding />
         </state>
@@ -1125,8 +1126,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zhanqi/readskills_v6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5862069">
-          <caret line="130" column="24" selection-start-line="130" selection-start-column="24" selection-end-line="130" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/auto/delete_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhanqi/auto/show_me_cards.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7241379">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
