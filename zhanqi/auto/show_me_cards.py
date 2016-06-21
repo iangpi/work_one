@@ -28,8 +28,10 @@ print monster_cards
 #用户名字和想要卡牌数量参数化
 myd={'7001_id':'7001',
      '4001_id':'4001',
+     '5001_id':'5001',
      '7001_address':'http://tactics.xingyunzhi.cn/delta/admin.html',
-     '4001_address':'http://tactics.xingyunzhi.cn/staging/admin.html'
+     '4001_address':'http://tactics.xingyunzhi.cn/staging/admin.html',
+     '5001_address':'http://tactics.xingyunzhi.cn/alpha/admin.html'
      }
 card_nums=5000
 coin_nums=999950
@@ -39,11 +41,12 @@ cash_nums=1000000
 #nick_name=u'不大不小超'
 nick_name=u'葫芦娃二娃'
 #nick_name='shunia'#包子
+#nick_name='welkin'#李侃
 
-dr=webdriver.Firefox()
+#dr=webdriver.Firefox()
 #无界面浏览器
-#phantomjs_path=os.path.abspath(r"C:\Python27\phantomjs-2.1.1-windows\bin\phantomjs.exe")
-#dr=webdriver.PhantomJS(phantomjs_path)
+phantomjs_path=os.path.abspath(r"C:\Python27\phantomjs-2.1.1-windows\bin\phantomjs.exe")
+dr=webdriver.PhantomJS(phantomjs_path)
 dr.get(myd[r'7001_address'])
 time.sleep(0.5)
 
@@ -80,18 +83,23 @@ cards_list=['monster003',
             'monster016',
             'monster018',
             'monster027',
+            'monster029',
             'monster034',
             'monster035',
+            'monster036',
             'monster038',
+            'monster039',
             'monster040',
             'monster042',
             'monster044',
+            'monster050',
+            'monster053',
             'monster065'
             ]
 #遍历玩家卡牌表，挨个添加
+dr.find_element_by_xpath(".//*[@id='unit_count']").send_keys(card_nums)
 for n in xrange(len(cards_list)):
     dr.find_element_by_xpath(".//*[@id='unit_id']").send_keys(cards_list[n])
-    dr.find_element_by_xpath(".//*[@id='unit_count']").send_keys(card_nums)
     dr.find_element_by_xpath(".//*[@id='features']/p[6]/input[3]").click()
     time.sleep(0.3)
     #断言一下，发送卡牌失败报错，断言发送失败的文字
@@ -107,7 +115,7 @@ for n in xrange(len(cards_list)):
         print cards_list[n],'has added',card_nums
     time.sleep(0.5)
     dr.find_element_by_id('unit_id').clear()
-    dr.find_element_by_xpath(".//*[@id='unit_count']").clear()
+    # dr.find_element_by_xpath(".//*[@id='unit_count']").clear()
 
 dr.quit()
 monsters_file.close()#别忘记关闭json文件，否则没法编辑
