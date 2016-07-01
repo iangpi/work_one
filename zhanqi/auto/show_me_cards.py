@@ -33,28 +33,30 @@ myd={'7001_id':'7001',
      '4001_address':'http://tactics.xingyunzhi.cn/staging/admin.html',
      '5001_address':'http://tactics.xingyunzhi.cn/alpha/admin.html'
      }
-card_nums=5000
+card_nums=2000
 coin_nums=999950
 cash_nums=1000000
 #nick_name='Houlin'
 #nick_name=u'奇怪的选手'
 #nick_name=u'不大不小超'
-nick_name=u'葫芦娃二娃'
+#nick_name=u'葫芦娃二娃'
 #nick_name='shunia'#包子
 #nick_name='welkin'#李侃
+#nick_name=u'逆光奔跑'#王晨
+nick_name=u'佐罗的面具'
 
 #dr=webdriver.Firefox()
 #无界面浏览器
 phantomjs_path=os.path.abspath(r"C:\Python27\phantomjs-2.1.1-windows\bin\phantomjs.exe")
 dr=webdriver.PhantomJS(phantomjs_path)
-dr.get(myd[r'7001_address'])
-time.sleep(0.5)
+dr.get(myd[r'4001_address'])
+time.sleep(2)
 
 #查找用户
 dr.find_element_by_id('server_id').clear()
-dr.find_element_by_id('server_id').send_keys(myd['7001_id'])
+dr.find_element_by_id('server_id').send_keys(myd['4001_id'])
 dr.find_element_by_id('nick_name').send_keys(nick_name)
-dr.find_element_by_xpath(".//*[@id='query_user']/p[5]/input").click()
+dr.find_element_by_xpath(".//*[@id='query_user']/div[4]/input").click()
 time.sleep(1)
 get_res=dr.find_element_by_xpath(".//*[@id='query_result']").text
 print len(get_res)
@@ -64,11 +66,18 @@ print len(get_res)
 # wrong_res={"status":"ok","users":[{"uid":"574ea818b80327025723feae","nickName":"葫芦娃二娃"},{"uid":"574eb7b2b80327025723febc","nickName":"葫芦娃二娃"}]}
 #判断一下搜索出来后，当前是没有帐号还是有多个帐号
 if len(get_res)<100:
-    dr.find_element_by_id('coin').clear()
-    dr.find_element_by_id('coin').send_keys(coin_nums)
-    dr.find_element_by_id('cash').clear()
-    dr.find_element_by_id('cash').send_keys(cash_nums)
-    dr.find_element_by_xpath(".//*[@id='features']/p[4]/input[3]").click()
+    #加钱加钻石
+    dr.find_element_by_xpath(".//*[@id='features']/div[2]").click()
+    time.sleep(2)
+    dr.find_element_by_id("coin").clear()
+    dr.find_element_by_id("coin").send_keys(coin_nums)
+    dr.find_element_by_id("cash").clear()
+    dr.find_element_by_id("cash").send_keys(cash_nums)
+    dr.find_element_by_xpath(".//*[@id='features']/div[3]/div/div[3]/input").click()
+    #修改研究所等级
+    #dr.find_element_by_xpath(".//*[@id='researchLevel1']").clear()
+    #dr.find_element_by_xpath(".//*[@id='researchLevel1']").send_keys('10')
+    #dr.find_element_by_xpath(".//*[@id='features']/p[18]/input").click()
 else:
     print ('请确认当前游戏中有几个相同昵称的帐号')
 cards_list=['monster003',
@@ -82,8 +91,11 @@ cards_list=['monster003',
             'monster013',
             'monster016',
             'monster018',
+            'monster020',
+            'monster021',
             'monster027',
             'monster029',
+            'monster031',
             'monster034',
             'monster035',
             'monster036',
@@ -97,11 +109,13 @@ cards_list=['monster003',
             'monster065'
             ]
 #遍历玩家卡牌表，挨个添加
+dr.find_element_by_xpath(".//*[@id='features']/div[4]").click()
+time.sleep(1)
 dr.find_element_by_xpath(".//*[@id='unit_count']").send_keys(card_nums)
 for n in xrange(len(cards_list)):
     dr.find_element_by_xpath(".//*[@id='unit_id']").send_keys(cards_list[n])
-    dr.find_element_by_xpath(".//*[@id='features']/p[6]/input[3]").click()
-    time.sleep(0.3)
+    dr.find_element_by_xpath(".//*[@id='features']/div[4]/div/div[3]/input").click()
+    time.sleep(0.5)
     #断言一下，发送卡牌失败报错，断言发送失败的文字
     try:
         get_text=dr.find_element_by_xpath(".//*[@id='query_result']").text

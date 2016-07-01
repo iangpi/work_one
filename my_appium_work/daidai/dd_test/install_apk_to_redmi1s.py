@@ -13,3 +13,4 @@ desired_caps['app'] = PATH(r'D:\test_app\up_2016.05.10_1.0.0_715.apk')
 
 #启动
 dr=webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
+dr.set_network_connection(4)
