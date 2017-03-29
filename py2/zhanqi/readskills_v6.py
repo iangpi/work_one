@@ -127,9 +127,12 @@ class hero_card(object):
             num_2=len(row_1_part_2)
             #遍历主动技能，写入
             for w in xrange(num_2):
-                if type(fun3[n][0][row_2_part_2[w]])==type('a'):#判断输入的是技能等级还是技能id名字
+                #之前写了个最笨的方法，忘记还有isinstance方法
+                #if type(fun3[n][0][row_2_part_2[w]])==type('a'):#判断输入的是技能等级还是技能id名字
+                if isinstance(fun3[n][0][row_2_part_2[w]],str):
                     pass
-                elif type(fun3[n][0][row_2_part_2[w]])==type(1):#判断输入的是技能等级还是技能id名字
+                #elif type(fun3[n][0][row_2_part_2[w]])==type(1):#判断输入的是技能等级还是技能id名字
+                elif isinstance(fun3[n][0][row_2_part_2[w]],int):
                     pass
                 sheet.write(w+num_1+3,0,row_1_part_2[w])
                 sheet.write(w+num_1+3,1,fun4(str(fun3[n][0][row_2_part_2[w]])))

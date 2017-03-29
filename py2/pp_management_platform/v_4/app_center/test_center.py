@@ -33,7 +33,7 @@ class AppCenterTest(My_setup_teardown):
 
     def test_002_edit_pw(self):
         """测试不输入任何东西，修改密码"""
-        self..open_browser(base_url['编辑密码url'])
+        self.open_browser(base_url['编辑密码url'])
         self.the_dr.by_xpath(set_page['修改密码按钮_el']).click()
         time.sleep(1)
         get_text=self.the_dr.by_id("oldPassword").text

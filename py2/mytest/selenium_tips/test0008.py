@@ -3,7 +3,7 @@ import xlwt
 #新建并打开一个表格
 page_1=['a','b','c','d','f']
 page_2=['1','2','3','4','5']
-sheet_names=['frist','second']
+sheet_names=['1th','2th']
 book=xlwt.Workbook(encoding='utf-8',style_compression=0)#配置信息可以不用细究
 for n in xrange(len(sheet_names)):#遍历分页名字
     sheet_name=sheet_names[n]
