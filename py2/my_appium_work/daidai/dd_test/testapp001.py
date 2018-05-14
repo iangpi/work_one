@@ -1,5 +1,6 @@
 #coding:utf-8
 from appium import webdriver
+from selenium import webdriver
 import os
 import time
 import sys
